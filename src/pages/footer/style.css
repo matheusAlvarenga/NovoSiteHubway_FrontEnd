@@ -1,0 +1,118 @@
+.footer-container {
+    background-image: url('../../assets/background_triangulo.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 482px;
+
+    color: white;
+}
+
+.footer-container .row {
+    display: flex;
+    justify-content: space-between;
+    height: 386px;
+}
+
+.footer-container .row .esq {
+    width: 26%;
+    margin-left: 96px;
+    margin-top: 32px;
+}
+
+.footer-container .row .esq .logo {
+    margin-bottom: 40px;
+}
+
+.footer-container .row .esq .resumo {
+    font-size: 14.6044px;
+    line-height: 22px;
+    text-align: justify;
+    color: #dfdfdf;
+    font-weight: 300;
+}
+
+.footer-container .row .meio {
+    margin-top: 50px;
+}
+
+.footer-container .row .meio h3 {
+    font-size: 19.4725px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 37px;
+}
+
+.footer-container .row .meio .endereco {
+    font-size: 14.6044px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #dfdfdf;
+    margin-bottom: 32px;
+}
+
+.footer-container .row .meio .contato {
+    font-size: 14.6044px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #dfdfdf;
+}
+
+.footer-container .row .dir {
+    margin-top: 50px;
+    margin-right: 20%;
+}
+
+.footer-container .row .dir h3 {
+    font-size: 19.4725px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 37px;
+}
+
+.footer-container .row .dir ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-container .row .dir ul li {
+    list-style: none;
+    font-size: 17px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #dfdfdf;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-container .row .dir ul li svg {
+    color: white;
+    font-size: 23px;
+    margin-right: 5px;
+}
+
+.footer-container .divider {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.footer-container .divider div {
+    height: 1px;
+    background-color: #505050;
+}
+
+.footer-container .copyright {
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container .copyright p {
+    font-size: 13.4185px;
+    color: #dfdfdf;
+}

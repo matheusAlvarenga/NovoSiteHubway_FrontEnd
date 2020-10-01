@@ -1,0 +1,31 @@
+.header-container {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container .logo {
+    margin-left: 5vw;
+    margin-top: 8px;
+}
+
+.header-container .menu {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+
+    color: #ffffff;
+}
+
+.header-container .menu ul {
+    margin-right: 5vw;
+}
+
+.header-container .menu ul li {
+    display: inline-block;
+    margin-left: 27px;
+}
