@@ -1,9 +1,21 @@
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+}
+
 .header-container {
-    background-color: black;
+    background-color: transparent;
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+
+    transition: background-color 0.5s;
+}
+
+.header-container.active {
+    background-color: black;
 }
 
 .header-container .logo {
@@ -18,6 +30,10 @@
     font-size: 15px;
     line-height: 19px;
 
+    color: white;
+}
+
+.header-container.active .menu {
     color: #ffffff;
 }
 

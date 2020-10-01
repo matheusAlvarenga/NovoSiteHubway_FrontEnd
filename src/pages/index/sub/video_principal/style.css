@@ -1,0 +1,5 @@
+.video-principal-container {
+    height: 100vh;
+    background: url('../../../../assets/background_principal.jpg');
+    background-position: bottom;
+}

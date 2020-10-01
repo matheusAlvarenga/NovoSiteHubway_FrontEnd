@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 
 import Header from '../header';
+import VideoPrincipal from './sub/video_principal';
+import Servicos from './sub/servicos';
 import Footer from '../footer';
 
+import './style.css';
 export default class Index extends Component {
     constructor(props) {
         super(props);
@@ -12,7 +15,10 @@ export default class Index extends Component {
         return (
             <div>
                 <Header></Header>
-                <h1>Teste 1 2 3 4 5 6</h1>
+                <div className="index-container">
+                    <VideoPrincipal></VideoPrincipal>
+                    <Servicos></Servicos>
+                </div>
                 <Footer></Footer>
             </div>
         );

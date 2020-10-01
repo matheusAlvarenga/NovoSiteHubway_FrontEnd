@@ -1,11 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.css';
 
 import Logo from '../../assets/logo_pq_branco.png';
 
 export default function Header() {
+    const [navbar, setNavbar] = useState(0);
+
+    const changeBackground = () => {
+        if (window.scrollY >= 350) {
+            setNavbar(1);
+        } else {
+            setNavbar(0);
+        }
+    };
+
+    window.addEventListener('scroll', changeBackground);
+
     return (
-        <div className="header-container">
+        <div
+            className={
+                navbar == 1 ? 'header-container active' : 'header-container'
+            }
+        >
             <div className="logo">
                 <img src={Logo} alt="Logo Hubway" height={35} />
             </div>
