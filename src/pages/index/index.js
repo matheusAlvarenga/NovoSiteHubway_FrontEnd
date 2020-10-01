@@ -12,7 +12,7 @@ export default class Index extends Component {
         return (
             <div>
                 <Header></Header>
-                <h1>Hello World</h1>
+                <h1>Teste 1 2 3 4 5 6</h1>
                 <Footer></Footer>
             </div>
         );
