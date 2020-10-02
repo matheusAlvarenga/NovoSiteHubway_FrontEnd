@@ -26,12 +26,14 @@
     -moz-text-fill-color: transparent;
     font-weight: 800;
     font-size: 15px;
+    text-transform: uppercase;
 }
 
 .servicos-resumo-container .header .titulo {
     font-weight: 600;
     font-size: 44.2924px;
     color: white;
+    text-transform: uppercase;
 }
 
 .servicos-resumo-container .header .paragrafo {
@@ -64,6 +66,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    cursor: pointer;
+}
+
+.servicos-resumo-container .lista .servico:hover {
+    border-image-source: linear-gradient(91.73deg, #fff 0%, #fff 100%);
+    background: -moz-linear-gradient(
+        91deg,
+        rgba(173, 0, 255, 0.4) 0%,
+        rgba(44, 96, 197, 0.4) 100%
+    );
+    background: -webkit-linear-gradient(
+        91deg,
+        rgba(173, 0, 255, 0.4) 0%,
+        rgba(44, 96, 197, 0.4) 100%
+    );
+    background: linear-gradient(
+        91deg,
+        rgba(173, 0, 255, 0.4) 0%,
+        rgba(44, 96, 197, 0.4) 100%
+    );
 }
 
 .servicos-resumo-container .lista .servico p {
@@ -78,6 +101,11 @@
 .servicos-resumo-container .ver-mais {
     color: white;
     font-size: 23px;
-    text-decoration: underline;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.servicos-resumo-container .ver-mais:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(173, 0, 255, 1);
 }

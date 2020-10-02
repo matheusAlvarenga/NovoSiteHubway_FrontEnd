@@ -59,3 +59,35 @@ button {
         rgba(44, 96, 197, 1) 100%
     );
 }
+
+.btn-padrao {
+    border: 0;
+    color: white;
+    font-size: 20px;
+    padding: 10px 70px;
+    font-weight: normal;
+    margin-top: 40px;
+    text-transform: uppercase;
+
+    transition: opacity 0.5s;
+
+    background: -moz-linear-gradient(
+        91deg,
+        rgba(173, 0, 255, 1) 0%,
+        rgba(44, 96, 197, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+        91deg,
+        rgba(173, 0, 255, 1) 0%,
+        rgba(44, 96, 197, 1) 100%
+    );
+    background: linear-gradient(
+        91deg,
+        rgba(173, 0, 255, 1) 0%,
+        rgba(44, 96, 197, 1) 100%
+    );
+}
+
+.btn-padrao:hover {
+    opacity: 0.7;
+}

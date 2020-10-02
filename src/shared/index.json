@@ -3,5 +3,15 @@
         "acima": "Marketing Digital",
         "titulo": "Conheça nossos Serviços",
         "paragrafo": "Desenvolvemos projetos e objetos digitais"
+    },
+    "sobre_nos": {
+        "acima": "BEM-VINDO À AGÊNCIA DIGITAL HUBWAY",
+        "titulo": "Gerando oportunidades comerciais desde 2015.",
+        "paragrafo": "A Agência Hubway nasceu com o objetivo de solucionar a geração de oportunidades comerciais para empresas, com metodologias mundialmente renomadas mundialmente e também as próprias metodologias desenvolvidas durante os anos de vida e experiência prática.",
+        "photo": "photo_1.png"
+    },
+    "contadores": {
+        "titulo": "Solicite uma demonstração dos nossos serviços e produtos",
+        "photo": "photo_2.png"
     }
 }

@@ -1,0 +1,20 @@
+{
+    "contadores": [
+        {
+            "numero": "6",
+            "descricao": "Anos de Mercado"
+        },
+        {
+            "numero": "80",
+            "descricao": "Clientes"
+        },
+        {
+            "numero": "+500",
+            "descricao": "Campanhas Lançadas"
+        },
+        {
+            "numero": "+100K",
+            "descricao": "Oportunidades Geradas"
+        }
+    ]
+}

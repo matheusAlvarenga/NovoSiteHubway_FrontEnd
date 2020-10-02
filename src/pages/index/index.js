@@ -13,12 +13,16 @@ import Footer from '../footer';
 import './style.css';
 
 import servicos_obj from '../../shared/servicos_model.json';
+import contadores_obj from '../../shared/contadores_model.json';
 import index_obj from '../../shared/index.json';
 export default class Index extends Component {
     constructor(props) {
         super(props);
         this.finalServicos = servicos_obj.servicos;
         this.textoServicos = index_obj.servicos;
+        this.textoSobreNos = index_obj.sobre_nos;
+        this.textoContadores = index_obj.contadores;
+        this.contadores = contadores_obj.contadores;
     }
 
     render() {
@@ -31,8 +35,11 @@ export default class Index extends Component {
                         dados={this.finalServicos}
                         textos={this.textoServicos}
                     ></Servicos>
-                    <SobreNos></SobreNos>
-                    <Contadores></Contadores>
+                    <SobreNos textos={this.textoSobreNos}></SobreNos>
+                    <Contadores
+                        dados={this.contadores}
+                        textos={this.textoContadores}
+                    ></Contadores>
                     <BannerFaleConosco></BannerFaleConosco>
                     <Tecnologias></Tecnologias>
                     <Feedback></Feedback>

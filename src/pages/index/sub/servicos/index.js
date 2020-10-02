@@ -8,15 +8,13 @@ import Imagem5 from '../../../../assets/servicos_icones/5.png';
 
 import './style.css';
 
-export default function Servicos_Resumo({ dados }) {
+export default function Servicos_Resumo({ dados, textos }) {
     return (
         <div className="servicos-resumo-container">
             <div className="header">
-                <p className="acima texto-gradiente">TESTE MKT</p>
-                <h2 className="titulo">TESTE TITULO TOPZERA TIU</h2>
-                <p className="paragrafo">
-                    Teste de um paragrafo bem topzera mesmo
-                </p>
+                <p className="acima texto-gradiente">{textos.acima}</p>
+                <h2 className="titulo">{textos.titulo}</h2>
+                <p className="paragrafo">{textos.paragrafo}</p>
             </div>
             <div className="lista">
                 <div className="servico">
