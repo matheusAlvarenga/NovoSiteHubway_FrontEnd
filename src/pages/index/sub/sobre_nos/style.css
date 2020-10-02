@@ -1,3 +1,52 @@
-.contadores-container {
+.sobre-nos-resumo-container {
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-nos-resumo-container .esq {
+    margin-left: 110px;
+    margin-right: 55px;
+}
+
+.sobre-nos-resumo-container .esq .acima {
+    width: 190px;
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.sobre-nos-resumo-container .esq .titulo {
+    font-size: 47.3941px;
+    line-height: 60px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.sobre-nos-resumo-container .esq .paragrafo {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.sobre-nos-resumo-container .esq .btn {
+    border: 0;
+    color: white;
+    font-size: 20px;
+    width: 230px;
+    height: 54px;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+.sobre-nos-resumo-container .dir {
+    margin-left: 55px;
+    margin-right: 110px;
 }
