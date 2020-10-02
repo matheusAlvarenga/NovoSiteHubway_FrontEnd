@@ -1,3 +1,114 @@
-.sobre-nos-resumo-container {
+.contadores-container {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.contadores-container .img-sob {
+    position: absolute;
+    margin-top: 35vh;
+    margin-left: 100px;
+}
+
+.contadores-container .img-sob img {
+    width: 50vw;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.contadores-container .primeiro {
+    background: url('../../../../assets/background_triangulo.jpg');
+    background-position: center;
+    background-size: cover;
+
+    height: 50vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    width: 100%;
+}
+
+.contadores-container .primeiro .contador {
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contadores-container .primeiro .contador .cima {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.contadores-container .primeiro .contador .cima .numero {
+    color: #dfdfdf;
+    font-weight: normal;
+    font-size: 66.4286px;
+}
+
+.contadores-container .primeiro .contador .cima .mais {
+    color: #dfdfdf;
+    font-weight: normal;
+    font-size: 60px;
+}
+
+.contadores-container .primeiro .contador .cima .mil {
+    color: #dfdfdf;
+    font-weight: normal;
+    font-size: 45px;
+}
+
+.contadores-container .primeiro .contador .descricao {
+    color: #dfdfdf;
+    font-weight: normal;
+    font-size: 19.4704px;
+    line-height: 29px;
+}
+
+.contadores-container .segundo {
+    margin-top: 20px;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.contadores-container .segundo h2 {
+    margin-right: 100px;
+    width: 32vw;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 52px;
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.contadores-container .segundo button {
+    margin-right: 100px;
+    margin-top: 20px;
+
+    border: 0;
+    color: white;
+    font-size: 20px;
+    padding: 10px 26px;
+    font-weight: 400;
+    margin-top: 40px;
+    text-transform: uppercase;
+
+    transition: opacity 0.5s;
+}
+
+.contadores-container .segundo button:hover {
+    opacity: 0.7;
 }
