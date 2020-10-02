@@ -19,7 +19,7 @@ export default function Header() {
     return (
         <div
             className={
-                navbar == 1 ? 'header-container active' : 'header-container'
+                navbar === 1 ? 'header-container active' : 'header-container'
             }
         >
             <div className="logo">

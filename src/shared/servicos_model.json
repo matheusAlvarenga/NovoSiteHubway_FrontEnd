@@ -1,0 +1,24 @@
+{
+    "servicos": [
+        {
+            "nome": "Inbound Marketing",
+            "icone": "inboundmkt.png"
+        },
+        {
+            "nome": "SEO",
+            "icone": "seo.png"
+        },
+        {
+            "nome": "Google Ads",
+            "icone": "googleads.png"
+        },
+        {
+            "nome": "Business Intelligence",
+            "icone": "bintelligence.png"
+        },
+        {
+            "nome": "Criação e Desenvolvimento",
+            "icone": "criacaoedev.png"
+        }
+    ]
+}

@@ -1,3 +1,83 @@
 .servicos-resumo-container {
     height: 100vh;
+    width: 100%;
+    background: url('../../../../assets/background_triangulo.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos-resumo-container .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos-resumo-container .header .acima {
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.servicos-resumo-container .header .titulo {
+    font-weight: 600;
+    font-size: 44.2924px;
+    color: white;
+}
+
+.servicos-resumo-container .header .paragrafo {
+    color: #dfdfdf;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+}
+
+.servicos-resumo-container .lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.servicos-resumo-container .lista .servico {
+    margin-right: 11px;
+    margin-left: 11px;
+    width: 100%;
+    height: 225px;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(91.73deg, #ad00ff 0%, #2c60c5 100%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos-resumo-container .lista .servico p {
+    color: white;
+    margin-top: 15px;
+    font-size: 23px;
+    line-height: 100%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.servicos-resumo-container .ver-mais {
+    color: white;
+    font-size: 23px;
+    text-decoration: underline;
+    text-transform: uppercase;
 }

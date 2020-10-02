@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
+/*VARIAVEIS DO CSS*/
+:root {
+    --corPrincipal: linear-gradient(91.73deg, #ad00ff 0%, #2c60c5 100%);
+    --corPrincipal40: linear-gradient(
+        91.73deg,
+        rgba(173, 0, 255, 0.4) 0%,
+        rgba(44, 96, 197, 0.4) 100%
+    );
+    --corPrincipal70: linear-gradient(
+        91.73deg,
+        rgba(173, 0, 255, 0.7) 0%,
+        rgba(44, 96, 197, 0.7) 100%
+    );
+    --cinza505050: #505050;
+    --cinzaAFAFAF: #dfdfdf;
+    --cinza141414: #141414;
+}
+/*FINAL DAS VARIAVEIS*/
+
 * {
     margin: 0;
     padding: 0;
@@ -21,4 +40,22 @@ textarea {
 
 button {
     cursor: pointer;
+}
+
+.texto-gradiente {
+    background: -moz-linear-gradient(
+        91deg,
+        rgba(173, 0, 255, 1) 0%,
+        rgba(44, 96, 197, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+        91deg,
+        rgba(173, 0, 255, 1) 0%,
+        rgba(44, 96, 197, 1) 100%
+    );
+    background: linear-gradient(
+        91deg,
+        rgba(173, 0, 255, 1) 0%,
+        rgba(44, 96, 197, 1) 100%
+    );
 }
