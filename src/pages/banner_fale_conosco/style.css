@@ -4,6 +4,8 @@
     justify-content: space-between;
     align-items: center;
     background: url('../../assets/banner_faleconosco/photo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner-faleconosco-container p {
