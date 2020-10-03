@@ -99,6 +99,7 @@
 }
 
 .servicos-resumo-container .lista .servico p {
+    width: 80%;
     color: white;
     margin-top: 15px;
     font-size: 23px;

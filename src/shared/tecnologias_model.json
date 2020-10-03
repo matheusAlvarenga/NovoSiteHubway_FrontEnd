@@ -1,20 +1,16 @@
 {
     "tecnologias": [
         {
-            "nome": "Moskit CRM",
-            "icone": "inboundmkt.png"
+            "nome": "Moskit CRM"
         },
         {
-            "nome": "SEO",
-            "icone": "seo.png"
+            "nome": "RD Station"
         },
         {
-            "nome": "Google Ads",
-            "icone": "googleads.png"
+            "nome": "Dinamize"
         },
         {
-            "nome": "Business Intelligence",
-            "icone": "bintelligence.png"
+            "nome": "Chatbot"
         }
     ]
 }

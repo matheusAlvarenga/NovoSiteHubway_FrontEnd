@@ -23,6 +23,7 @@ export default class Index extends Component {
         this.textoServicos = index_obj.servicos;
         this.textoSobreNos = index_obj.sobre_nos;
         this.textoContadores = index_obj.contadores;
+        this.textoBanner = index_obj.banner;
         this.textoTecnologias = index_obj.tecnologias;
         this.contadores = contadores_obj.contadores;
         this.tecnologias = tecnologias_obj.tecnologias;
@@ -43,7 +44,9 @@ export default class Index extends Component {
                         dados={this.contadores}
                         textos={this.textoContadores}
                     ></Contadores>
-                    <BannerFaleConosco></BannerFaleConosco>
+                    <BannerFaleConosco
+                        textos={this.textoBanner}
+                    ></BannerFaleConosco>
                     <Tecnologias
                         dados={this.tecnologias}
                         textos={this.textoTecnologias}

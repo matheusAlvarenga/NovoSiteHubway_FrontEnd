@@ -8,6 +8,39 @@ import Imagem5 from '../../../../assets/servicos_icones/5.png';
 
 import './style.css';
 
+function mapServicos(dados) {
+    return dados.map((servico, key) => {
+        let img;
+
+        switch (key) {
+            case 0:
+                img = <img height={93} src={Imagem1}></img>;
+                break;
+            case 1:
+                img = <img height={93} src={Imagem2}></img>;
+                break;
+            case 2:
+                img = <img height={93} src={Imagem3}></img>;
+                break;
+            case 3:
+                img = <img height={93} src={Imagem4}></img>;
+                break;
+            case 4:
+                img = <img height={93} src={Imagem5}></img>;
+                break;
+        }
+
+        console.log(key);
+
+        return (
+            <div className="servico">
+                {img}
+                <p>{servico.nome}</p>
+            </div>
+        );
+    });
+}
+
 export default function Servicos_Resumo({ dados, textos }) {
     return (
         <div className="servicos-resumo-container">
@@ -16,28 +49,7 @@ export default function Servicos_Resumo({ dados, textos }) {
                 <h2 className="titulo">{textos.titulo}</h2>
                 <p className="paragrafo">{textos.paragrafo}</p>
             </div>
-            <div className="lista">
-                <div className="servico">
-                    <img height={93} src={Imagem1}></img>
-                    <p>TESTE DE UM SERVIÇO</p>
-                </div>
-                <div className="servico">
-                    <img height={93} src={Imagem2}></img>
-                    <p>TESTE DE UM SERVIÇO</p>
-                </div>
-                <div className="servico">
-                    <img height={93} src={Imagem3}></img>
-                    <p>TESTE DE UM SERVIÇO</p>
-                </div>
-                <div className="servico">
-                    <img height={93} src={Imagem4}></img>
-                    <p>TESTE DE UM SERVIÇO</p>
-                </div>
-                <div className="servico">
-                    <img height={93} src={Imagem5}></img>
-                    <p>TESTE DE UM SERVIÇO</p>
-                </div>
-            </div>
+            <div className="lista">{mapServicos(dados)}</div>
             <div className="ver-mais">
                 <p>Ver Mais</p>
             </div>

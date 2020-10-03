@@ -108,6 +108,7 @@
 }
 
 .tecnologias-resumo-container .lista .tech p {
+    width: 80%;
     color: #141414;
     margin-top: 15px;
     font-size: 23px;
@@ -115,6 +116,7 @@
     font-weight: 400;
     text-align: center;
     width: 50%;
+    text-transform: uppercase;
 }
 
 .tecnologias-resumo-container .ver-mais {
