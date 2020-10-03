@@ -20,6 +20,36 @@
 }
 /*FINAL DAS VARIAVEIS*/
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    width: 5px;
+    background: #dfdfdf;
+}
+
+::-webkit-scrollbar-thumb {
+    background: -moz-linear-gradient(
+            91deg,
+            rgba(173, 0, 255, 0.7) 0%,
+            rgba(44, 96, 197, 0.7) 100%
+        ),
+        #2c60c5;
+    background: -webkit-linear-gradient(
+            91deg,
+            rgba(173, 0, 255, 0.7) 0%,
+            rgba(44, 96, 197, 0.7) 100%
+        ),
+        #2c60c5;
+    background: linear-gradient(
+            91deg,
+            rgba(173, 0, 255, 0.7) 0%,
+            rgba(44, 96, 197, 0.7) 100%
+        ),
+        #2c60c5;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -30,6 +60,7 @@
 body {
     font-family: Oswald, sans-serif;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
 }
 
 input,
