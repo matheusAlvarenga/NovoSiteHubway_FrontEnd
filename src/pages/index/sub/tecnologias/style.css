@@ -84,7 +84,7 @@
 }
 
 .tecnologias-resumo-container .lista .tech:hover {
-    border-image-source: linear-gradient(to right, #000 0%, #000 100%);
+    border-image-source: linear-gradient(to right, #141414 0%, #141414 100%);
     background: -moz-linear-gradient(
         to right,
         rgba(173, 0, 255, 0.7) 0%,

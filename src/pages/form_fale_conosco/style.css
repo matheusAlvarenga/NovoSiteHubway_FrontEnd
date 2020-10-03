@@ -1,0 +1,118 @@
+.form-fale-conosco-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.form-fale-conosco-container .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-fale-conosco-container .header .acima {
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.form-fale-conosco-container .header .titulo {
+    text-align: center;
+    width: 38vw;
+    font-weight: 600;
+    font-size: 44.2924px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.form-fale-conosco-container .header .paragrafo {
+    text-align: center;
+    width: 48vw;
+    color: #141414;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+}
+
+.form-fale-conosco-container .formulario {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-fale-conosco-container .formulario .grupo {
+    display: flex;
+    width: 50vw;
+    margin-bottom: 16px;
+}
+
+.form-fale-conosco-container .formulario .grupo input {
+    padding-left: 10px;
+    width: 100%;
+    margin-right: 12px;
+    margin-left: 12px;
+    height: 35px;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #ad00ff 0%, #2c60c5 100%);
+    border-image-source: -webkit-linear-gradient(
+        to right,
+        #ad00ff 0%,
+        #2c60c5 100%
+    );
+    border-image-source: -moz-linear-gradient(
+        to right,
+        #ad00ff 0%,
+        #2c60c5 100%
+    );
+}
+
+.form-fale-conosco-container .formulario .text-area {
+    display: flex;
+    width: 50vw;
+    margin-bottom: 16px;
+}
+
+.form-fale-conosco-container .formulario .text-area textarea {
+    padding-left: 10px;
+    width: 100%;
+    margin-right: 12px;
+    margin-left: 12px;
+    height: 150px;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #ad00ff 0%, #2c60c5 100%);
+    border-image-source: -webkit-linear-gradient(
+        to right,
+        #ad00ff 0%,
+        #2c60c5 100%
+    );
+    border-image-source: -moz-linear-gradient(
+        to right,
+        #ad00ff 0%,
+        #2c60c5 100%
+    );
+    resize: none;
+}
+
+.form-fale-conosco-container .formulario .grupo button {
+    padding-left: 10px;
+    width: 100%;
+    margin-right: 12px;
+    margin-left: 12px;
+    height: 35px;
+    border: 0;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+}

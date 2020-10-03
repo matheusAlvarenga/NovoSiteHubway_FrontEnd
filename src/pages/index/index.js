@@ -8,6 +8,7 @@ import Contadores from './sub/contadores';
 import BannerFaleConosco from '../banner_fale_conosco';
 import Tecnologias from './sub/tecnologias';
 import Feedback from '../feedback';
+import FormFaleConosco from '../form_fale_conosco';
 import Footer from '../footer';
 
 import './style.css';
@@ -25,6 +26,8 @@ export default class Index extends Component {
         this.textoContadores = index_obj.contadores;
         this.textoBanner = index_obj.banner;
         this.textoTecnologias = index_obj.tecnologias;
+        this.textoFeedback = index_obj.feedbacks;
+        this.textoFaleConosoc = index_obj['fale-conosco'];
         this.contadores = contadores_obj.contadores;
         this.tecnologias = tecnologias_obj.tecnologias;
     }
@@ -51,7 +54,11 @@ export default class Index extends Component {
                         dados={this.tecnologias}
                         textos={this.textoTecnologias}
                     ></Tecnologias>
-                    <Feedback></Feedback>
+                    <Feedback dados={{}} textos={this.textoFeedback}></Feedback>
+                    <FormFaleConosco
+                        dados={{}}
+                        textos={this.textoFaleConosoc}
+                    ></FormFaleConosco>
                 </div>
                 <Footer></Footer>
             </div>
