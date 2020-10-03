@@ -38,18 +38,7 @@
 }
 
 .sobre-nos-resumo-container .esq .btn {
-    border: 0;
-    color: white;
-    font-size: 20px;
-    padding: 10px 70px;
-    font-weight: normal;
     margin-top: 40px;
-
-    transition: opacity 0.5s;
-}
-
-.sobre-nos-resumo-container .esq .btn:hover {
-    opacity: 0.7;
 }
 
 .sobre-nos-resumo-container .dir {

@@ -11,7 +11,7 @@ export default function Sobre_Nos_Resumo({ textos }) {
                 <p className="acima texto-gradiente">{textos.acima}</p>
                 <h2 className="titulo">{textos.titulo}</h2>
                 <p className="paragrafo">{textos.paragrafo}</p>
-                <button className="btn-padrao">Saiba Mais</button>
+                <button className="btn-padrao btn">Saiba Mais</button>
             </div>
             <div className="dir">
                 <img height={515} src={Imagem1} />

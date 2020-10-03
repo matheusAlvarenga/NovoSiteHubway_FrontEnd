@@ -13,5 +13,14 @@
     "contadores": {
         "titulo": "Solicite uma demonstração dos nossos serviços e produtos",
         "photo": "photo_2.png"
+    },
+    "banner": {
+        "frase": "Quer tornar seu projeto realidade?",
+        "button": "Fale conosco"
+    },
+    "tecnologias": {
+        "acima": "Sempre à frente do seu tempo",
+        "titulo": "Conheça nossas Tecnologias Parceiras",
+        "paragrafo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam."
     }
 }

@@ -1,3 +1,130 @@
 .tecnologias-resumo-container {
     height: 100vh;
+    width: 100%;
+    background: url('../../../../assets/background_triangulo_b.png');
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecnologias-resumo-container .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecnologias-resumo-container .header .acima {
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.tecnologias-resumo-container .header .titulo {
+    text-align: center;
+    width: 38vw;
+    font-weight: 600;
+    font-size: 44.2924px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.tecnologias-resumo-container .header .paragrafo {
+    text-align: center;
+    width: 48vw;
+    color: #141414;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+}
+
+.tecnologias-resumo-container .lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.tecnologias-resumo-container .lista .tech {
+    margin-right: 11px;
+    margin-left: 11px;
+    width: 100%;
+    height: 225px;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #ad00ff 0%, #2c60c5 100%);
+    border-image-source: -webkit-linear-gradient(
+        to right,
+        #ad00ff 0%,
+        #2c60c5 100%
+    );
+    border-image-source: -moz-linear-gradient(
+        to right,
+        #ad00ff 0%,
+        #2c60c5 100%
+    );
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.tecnologias-resumo-container .lista .tech:hover {
+    border-image-source: linear-gradient(to right, #000 0%, #000 100%);
+    background: -moz-linear-gradient(
+        to right,
+        rgba(173, 0, 255, 0.7) 0%,
+        rgba(44, 96, 197, 0.7) 100%
+    );
+    background: -webkit-linear-gradient(
+        to right,
+        rgba(173, 0, 255, 0.7) 0%,
+        rgba(44, 96, 197, 0.7) 100%
+    );
+    background: linear-gradient(
+        to right,
+        rgba(173, 0, 255, 0.7) 0%,
+        rgba(44, 96, 197, 0.7) 100%
+    );
+}
+
+.tecnologias-resumo-container .lista .tech img {
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.tecnologias-resumo-container .lista .tech p {
+    color: #141414;
+    margin-top: 15px;
+    font-size: 23px;
+    line-height: 100%;
+    font-weight: 400;
+    text-align: center;
+    width: 50%;
+}
+
+.tecnologias-resumo-container .ver-mais {
+    color: black;
+    font-size: 23px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.tecnologias-resumo-container .ver-mais:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(173, 0, 255, 1);
 }

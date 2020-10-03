@@ -14,6 +14,7 @@ import './style.css';
 
 import servicos_obj from '../../shared/servicos_model.json';
 import contadores_obj from '../../shared/contadores_model.json';
+import tecnologias_obj from '../../shared/tecnologias_model.json';
 import index_obj from '../../shared/index.json';
 export default class Index extends Component {
     constructor(props) {
@@ -22,7 +23,9 @@ export default class Index extends Component {
         this.textoServicos = index_obj.servicos;
         this.textoSobreNos = index_obj.sobre_nos;
         this.textoContadores = index_obj.contadores;
+        this.textoTecnologias = index_obj.tecnologias;
         this.contadores = contadores_obj.contadores;
+        this.tecnologias = tecnologias_obj.tecnologias;
     }
 
     render() {
@@ -41,7 +44,10 @@ export default class Index extends Component {
                         textos={this.textoContadores}
                     ></Contadores>
                     <BannerFaleConosco></BannerFaleConosco>
-                    <Tecnologias></Tecnologias>
+                    <Tecnologias
+                        dados={this.tecnologias}
+                        textos={this.textoTecnologias}
+                    ></Tecnologias>
                     <Feedback></Feedback>
                 </div>
                 <Footer></Footer>
