@@ -7,6 +7,7 @@ import Feedbacks from '../feedback';
 import TopOfMind from './sub/topofmind';
 import NossosValores from './sub/nossos_valores';
 import FormContato from '../form_fale_conosco';
+import Footer from '../footer';
 
 import sobrenos_obj from '../../shared/sobre_nos.json';
 
@@ -37,12 +38,13 @@ export default class SobreNos extends Component {
                     textos={this.textoFeedbacks}
                     dados={this.dadosFeedbacks}
                 ></Feedbacks>
-                <TopOfMind></TopOfMind>
+                {/* <TopOfMind></TopOfMind> */}
                 <NossosValores
                     textos={this.textoNossosValores}
                     dados={this.dadosValores}
                 ></NossosValores>
                 <FormContato textos={this.textoForm}></FormContato>
+                <Footer></Footer>
             </div>
         );
     }
