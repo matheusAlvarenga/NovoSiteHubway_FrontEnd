@@ -1,0 +1,172 @@
+.nossos-valores-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nossos-valores-container .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.nossos-valores-container .header .acima {
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.nossos-valores-container .header .titulo {
+    font-weight: 600;
+    font-size: 44.2924px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nossos-valores-container .header .paragrafo {
+    color: #141414;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+}
+
+.nossos-valores-container .lista-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70vw;
+}
+
+.nossos-valores-container .lista-titulo .titulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+
+    background: white;
+
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #ad00ff 0%, #2c60c5 100%);
+    border-image-source: -webkit-linear-gradient(
+        to right,
+        #ad00ff 0%,
+        #2c60c5 100%
+    );
+    border-image-source: -moz-linear-gradient(
+        to right,
+        #ad00ff 0%,
+        #2c60c5 100%
+    );
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.nossos-valores-container .lista-titulo .titulos:hover {
+    background: -moz-linear-gradient(
+        to right,
+        rgba(173, 0, 255, 0.2) 0%,
+        rgba(44, 96, 197, 0.2) 100%
+    );
+    background: -webkit-linear-gradient(
+        to right,
+        rgba(173, 0, 255, 0.2) 0%,
+        rgba(44, 96, 197, 0.2) 100%
+    );
+    background: linear-gradient(
+        to right,
+        rgba(173, 0, 255, 0.2) 0%,
+        rgba(44, 96, 197, 0.2) 100%
+    );
+}
+
+.nossos-valores-container .lista-titulo .active {
+    background: -moz-linear-gradient(
+        to right,
+        rgba(173, 0, 255, 0.8) 0%,
+        rgba(44, 96, 197, 0.8) 100%
+    );
+    background: -webkit-linear-gradient(
+        to right,
+        rgba(173, 0, 255, 0.8) 0%,
+        rgba(44, 96, 197, 0.8) 100%
+    );
+    background: linear-gradient(
+        to right,
+        rgba(173, 0, 255, 0.8) 0%,
+        rgba(44, 96, 197, 0.8) 100%
+    );
+
+    color: white;
+    font-weight: bold;
+}
+
+.nossos-valores-container .lista-titulo .active:hover {
+    color: #141414;
+    background: -moz-linear-gradient(
+        to right,
+        rgba(173, 0, 255, 0.4) 0%,
+        rgba(44, 96, 197, 0.4) 100%
+    );
+    background: -webkit-linear-gradient(
+        to right,
+        rgba(173, 0, 255, 0.4) 0%,
+        rgba(44, 96, 197, 0.4) 100%
+    );
+    background: linear-gradient(
+        to right,
+        rgba(173, 0, 255, 0.4) 0%,
+        rgba(44, 96, 197, 0.4) 100%
+    );
+}
+
+.nossos-valores-container .lista-titulo .titulos p {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 44px;
+}
+
+.nossos-valores-container .corpo {
+    margin-top: 15px;
+
+    display: flex;
+    width: 70vw;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nossos-valores-container .corpo .imagem img {
+    width: 34vw;
+    object-fit: cover;
+}
+
+.nossos-valores-container .corpo .paragrafo {
+    height: fit-content;
+
+    width: 34vw;
+
+    text-align: justify;
+
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #141414;
+}
