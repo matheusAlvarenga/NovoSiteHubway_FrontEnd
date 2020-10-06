@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 import Header from '../header';
 import BannerPages from '../banner_pages';
-//Imagens
+import Imagens from './sub/imagem';
 import Feedbacks from '../feedback';
-//Top of Mind
+import TopOfMind from './sub/topofmind';
 import NossosValores from './sub/nossos_valores';
 import FormContato from '../form_fale_conosco';
 
@@ -18,6 +18,7 @@ export default class SobreNos extends Component {
         super(props);
 
         this.textoBannerPages = sobrenos_obj.banner;
+        this.textoImagens = sobrenos_obj.bemvindo;
         this.textoNossosValores = sobrenos_obj.nossos_valores;
         this.textoFeedbacks = sobrenos_obj.feedbacks;
         this.textoForm = sobrenos_obj.faleconosco;
@@ -31,12 +32,12 @@ export default class SobreNos extends Component {
             <div className="sobre_nos_container">
                 <Header></Header>
                 <BannerPages textos={this.textoBannerPages}></BannerPages>
-                {/* Imagens */}
+                <Imagens textos={this.textoImagens}></Imagens>
                 <Feedbacks
                     textos={this.textoFeedbacks}
                     dados={this.dadosFeedbacks}
                 ></Feedbacks>
-                {/* Top of Mind */}
+                <TopOfMind></TopOfMind>
                 <NossosValores
                     textos={this.textoNossosValores}
                     dados={this.dadosValores}

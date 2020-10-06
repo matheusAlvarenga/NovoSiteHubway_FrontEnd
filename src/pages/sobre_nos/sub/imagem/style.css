@@ -1,0 +1,60 @@
+.imagens-container {
+    height: 100vh;
+    position: relative;
+}
+
+.imagens-container .right {
+    width: 40vw;
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    z-index: 1;
+}
+
+.imagens-container .abs {
+    object-fit: cover;
+    width: 60vw;
+    height: 50vh;
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+}
+
+.imagens-container .textos {
+    width: 100vw;
+    height: 100vw;
+    padding: 30px 100px;
+}
+
+.imagens-container .textos .header p {
+    font-weight: normal;
+    font-size: 12.4886px;
+    line-height: 19px;
+}
+
+.imagens-container .textos .header h2 {
+    width: 40vw;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 67px;
+    text-transform: uppercase;
+}
+
+.imagens-container .textos .footer {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+}
+
+.imagens-container .textos .footer p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.imagens-container .textos .footer p + p {
+    margin-top: -25px;
+    font-weight: normal;
+    font-size: 109.892px;
+    line-height: 139px;
+}
