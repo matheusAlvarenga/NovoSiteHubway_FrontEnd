@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 import Header from '../header';
+import HeaderMobile from '../header_mobile';
+import AsideMenu from '../aside_menu';
 import VideoPrincipal from './sub/video_principal';
 import Servicos from './sub/servicos';
 import SobreNos from './sub/sobre_nos';
@@ -37,7 +39,9 @@ export default class Index extends Component {
     render() {
         return (
             <div>
-                <Header></Header>
+                {/* <Header></Header> */}
+                {/* <HeaderMobile></HeaderMobile> */}
+                <AsideMenu estado={true}></AsideMenu>
                 <div className="index-container">
                     <VideoPrincipal></VideoPrincipal>
                     <Servicos

@@ -1,0 +1,67 @@
+.aside-menu-container {
+    z-index: 99;
+}
+
+.aside-menu-container .fechar {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #141414;
+    opacity: 0.8;
+}
+
+.aside-menu-container .menu {
+    position: fixed;
+    height: 100vh;
+    width: 50vw;
+    background: black;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.aside-menu-container .menu .logo {
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #505050;
+}
+
+.aside-menu-container .menu .logo img {
+    width: 30vw;
+}
+
+.aside-menu-container .menu .corpo {
+    width: 100%;
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aside-menu-container .menu .corpo .lista {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.aside-menu-container .menu .corpo .lista .item {
+    width: 80%;
+    border-bottom: 1px solid #505050;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.aside-menu-container .menu .corpo .lista .item:hover {
+    background: #505050;
+}
+
+.aside-menu-container .menu .corpo .footer {
+    color: #dfdfdf;
+}

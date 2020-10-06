@@ -1,0 +1,35 @@
+.header-m-container {
+    background-color: transparent;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+
+    z-index: 99;
+
+    transition: background-color 0.5s;
+}
+
+.header-m-container.active {
+    background-color: black;
+    opacity: 0.9;
+}
+
+.header-m-container .logo {
+    margin-left: 5vw;
+    margin-top: 8px;
+}
+
+.header-m-container .menu {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-m-container .menu svg {
+    font-size: 30px;
+    margin-right: 5vw;
+}
