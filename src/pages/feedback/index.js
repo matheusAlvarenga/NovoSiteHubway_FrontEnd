@@ -3,6 +3,32 @@ import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
 import './style.css';
 
+function changeFeedbacks(num1, num2) {}
+
+function buttonsMap(dados) {
+    const num_btn = dados.length;
+}
+
+function feedbackMap(dados) {
+    return dados.map((feed, key) => {
+        let display_m;
+        if (key % 2 == 0) {
+            display_m = 'block';
+        } else {
+            display_m = 'none';
+        }
+
+        return (
+            <div style={{ display: display_m }} className="feedback" key={key}>
+                <h3>{feed.autor}</h3>
+                <p>{feed.cargo}</p>
+                <p>{feed.mensagem}</p>
+                <p className="data">{feed.data}</p>
+            </div>
+        );
+    });
+}
+
 export default function Feedback({ dados, textos }) {
     return (
         <div className="feedback-container">
@@ -21,30 +47,7 @@ export default function Feedback({ dados, textos }) {
                 <div className="seta-esq">
                     <FiChevronLeft></FiChevronLeft>
                 </div>
-                <div className="feedback">
-                    <h3>Matheus Alvarenga</h3>
-                    <p>Cargo</p>
-                    <p>
-                        “Rapidiously synthesize parallel information rather than
-                        web-enabled infrastructures. Rapidiously conceptualize
-                        intuitive paradigms before optimal synergy. Globally
-                        benchmark wireless interfaces whereas tactical
-                        meta-services.”
-                    </p>
-                    <p className="data">22/09/2020</p>
-                </div>
-                <div className="feedback">
-                    <h3>Matheus Alvarenga</h3>
-                    <p>Cargo</p>
-                    <p>
-                        “Rapidiously synthesize parallel information rather than
-                        web-enabled infrastructures. Rapidiously conceptualize
-                        intuitive paradigms before optimal synergy. Globally
-                        benchmark wireless interfaces whereas tactical
-                        meta-services.”
-                    </p>
-                    <p className="data">22/09/2020</p>
-                </div>
+                {feedbackMap(dados)}
                 <div className="seta-dir">
                     <FiChevronRight></FiChevronRight>
                 </div>

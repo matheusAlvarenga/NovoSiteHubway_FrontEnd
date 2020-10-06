@@ -61,6 +61,7 @@ body {
     font-family: Oswald, sans-serif;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
+    background-color: white;
 }
 
 input,

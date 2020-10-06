@@ -1,0 +1,27 @@
+.banner-pages-container {
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: url('../../assets/background_pages.jpg');
+    background-size: cover;
+}
+
+.banner-pages-container h1 {
+    font-weight: 500;
+    font-size: 74.1987px;
+    line-height: 110px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.banner-pages-container p {
+    margin-top: 70px;
+    font-weight: 500;
+    font-size: 16.5882px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+}

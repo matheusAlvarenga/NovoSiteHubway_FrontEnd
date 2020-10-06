@@ -47,8 +47,8 @@
 .header-container .menu ul li {
     display: inline-block;
     margin-left: 27px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-        1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #141414, 1px -1px 0 #141414, -1px 1px 0 #141414,
+        1px 1px 0 #141414;
 
-    -webkit-text-stroke: 1px solid #000;
+    -webkit-text-stroke: 1px solid #141414;
 }

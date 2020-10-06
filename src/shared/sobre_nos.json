@@ -1,0 +1,32 @@
+{
+    "banner": {
+        "breadcrumb": "Início - Sobre Nós",
+        "titulo": "Sobre Nós"
+    },
+    "bem-vindo": {
+        "acima": "BEM-VINDO À AGÊNCIA DIGITAL HUBWAY",
+        "titulo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "ano": "2001"
+    },
+    "feedbacks": {
+        "acima": "LOREM IPSUM DOLOR SIT AMET"
+    },
+    "banner_newsletter": {
+        "frase": "Quer saber todas as novidades?",
+        "button": "Se increva"
+    },
+    "nossa_equipe": {
+        "acima": "AQUELES QUE TORNAM REALIDADE",
+        "titulo": "NOSSA EQUIPE",
+        "paragrafo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam."
+    },
+    "nossos_valores": {
+        "acima": "AQUELES QUE TORNAM REALIDADE",
+        "titulo": "POR QUE NOS ESCOLHER?",
+        "paragrafo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam."
+    },
+    "banner_faleconosco": {
+        "frase": "Quer tornar seu projeto realidade?",
+        "button": "Fale conosco"
+    }
+}
