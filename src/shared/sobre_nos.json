@@ -25,8 +25,9 @@
         "titulo": "POR QUE NOS ESCOLHER?",
         "paragrafo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam."
     },
-    "banner_faleconosco": {
-        "frase": "Quer tornar seu projeto realidade?",
-        "button": "Fale conosco"
+    "faleconosco": {
+        "acima": "LOREM IPSUM",
+        "titulo": "NOS MANDE UMA MENSAGEM",
+        "paragrafo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam."
     }
 }
