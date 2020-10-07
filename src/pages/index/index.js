@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ScrollLock from 'react-scrolllock';
 
 import Header from '../header';
 import HeaderMobile from '../header_mobile';
@@ -11,6 +12,7 @@ import Tecnologias from './sub/tecnologias';
 import Feedback from '../feedback';
 import FormFaleConosco from '../form_fale_conosco';
 import Footer from '../footer';
+import FooterMobile from '../footer_mobile';
 
 import './style.css';
 
@@ -66,7 +68,8 @@ export default class Index extends Component {
                         textos={this.textoFaleConosoc}
                     ></FormFaleConosco>
                 </div>
-                <Footer></Footer>
+                {/* <Footer></Footer> */}
+                <FooterMobile></FooterMobile>
             </div>
         );
     }

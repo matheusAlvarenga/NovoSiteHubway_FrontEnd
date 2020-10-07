@@ -7,7 +7,7 @@ import Menu from '../menu_mobile';
 import './style.css';
 
 export default function MobileHeader() {
-    const [aberto, setAberto] = useState(true);
+    const [aberto, setAberto] = useState(false);
 
     return (
         <>

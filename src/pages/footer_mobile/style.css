@@ -1,0 +1,108 @@
+.footer-container-mobile {
+    background: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+
+    text-align: center;
+
+    color: white;
+
+    padding-top: 20px;
+}
+
+.footer-container-mobile .primeira {
+    width: 80%;
+    font-size: 14.6044px;
+    line-height: 22px;
+    color: #dfdfdf;
+    font-weight: 300;
+
+    margin-bottom: 20px;
+}
+
+.footer-container-mobile .primeira img {
+    margin-bottom: 10px;
+    width: 50vw;
+}
+
+.footer-container-mobile .segunda {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.footer-container-mobile .segunda .left h3 {
+    font-size: 19.4725px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer-container-mobile .segunda .left .endereco {
+    font-size: 14.6044px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #dfdfdf;
+    margin-bottom: 7px;
+}
+
+.footer-container-mobile .segunda .left .contato {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #dfdfdf;
+}
+
+.footer-container-mobile .segunda .right h3 {
+    font-size: 19.4725px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer-container-mobile .segunda .right ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-container-mobile .segunda .right ul li {
+    list-style: none;
+    font-size: 17px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #dfdfdf;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+}
+
+.footer-container-mobile .segunda .right ul li svg {
+    color: white;
+    font-size: 23px;
+}
+
+.footer-container-mobile .divider {
+    width: 80%;
+}
+
+.footer-container-mobile .divider div {
+    height: 1px;
+    background-color: #505050;
+}
+
+.footer-container-mobile .copyright {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container-mobile .copyright p {
+    font-size: 13.4185px;
+    color: #dfdfdf;
+}

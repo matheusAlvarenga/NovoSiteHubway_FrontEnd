@@ -1,20 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FiX } from 'react-icons/fi';
 
 import './style.css';
 
 export default function Menu({ estado = true, click = () => {} }) {
+    const [teste, setTeste] = useState(false);
+
     let classes;
     let classes2;
 
-    if (estado) {
-        classes =
-            'mobile-menu-container animate__animated animate__slideInLeft';
-        classes2 = 'overlay animate__animated animate__fadeIn';
-    } else {
-        classes =
-            'mobile-menu-container animate__animated animate__slideOutLeft';
-        classes2 = 'overlay_n animate__animated animate__fadeOut';
+    switch (estado) {
+        case true:
+            classes =
+                'mobile-menu-container animate__animated animate__slideInLeft';
+            classes2 = 'overlay animate__animated animate__fadeIn';
+            break;
+        case false:
+            classes =
+                'mobile-menu-container animate__animated animate__slideOutLeft';
+            classes2 = 'overlay-n animate__animated animate__fadeOut';
     }
 
     return (
