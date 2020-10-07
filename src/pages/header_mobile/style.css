@@ -1,35 +1,31 @@
-.header-m-container {
-    background-color: transparent;
+.mobile-header-container {
+    z-index: 10;
+    width: 100vw;
+    position: fixed;
+    background: black;
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    width: 100%;
-
-    z-index: 99;
-
-    transition: background-color 0.5s;
 }
 
-.header-m-container.active {
-    background-color: black;
-    opacity: 0.9;
+.mobile-header-container .logo {
+    margin-right: 30vw;
+    margin-top: 10px;
 }
 
-.header-m-container .logo {
-    margin-left: 5vw;
-    margin-top: 8px;
+.mobile-header-container .logo img {
+    width: 40vw;
 }
 
-.header-m-container .menu {
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.mobile-header-container .hamb {
+    color: white;
+    margin-left: 20px;
+    padding: 5px 5px 0px 5px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
-.header-m-container .menu svg {
+.mobile-header-container .hamb svg {
     font-size: 30px;
-    margin-right: 5vw;
 }
