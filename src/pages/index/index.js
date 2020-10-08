@@ -33,6 +33,8 @@ import FeedbackMobile from '../feedback_mobile';
 import FeedbackSmall from '../feedback_small';
 
 import FormFaleConosco from '../form_fale_conosco';
+import FormFaleConoscoMobile from '../form_fale_conosco_mobile';
+import FormFaleConoscoTablet from '../form_fale_conosco_tablet';
 
 import Footer from '../footer';
 import FooterMobile from '../footer_mobile';
@@ -392,9 +394,45 @@ export default class Index extends Component {
 
                     {/* FIM FEEDBACKS */}
 
-                    <FormFaleConosco
-                        textos={this.textoFaleConosoc}
-                    ></FormFaleConosco>
+                    {/* FORMULÁRIO */}
+
+                    <Mobile>
+                        <FormFaleConoscoMobile
+                            textos={this.textoFaleConosoc}
+                        ></FormFaleConoscoMobile>
+                    </Mobile>
+
+                    <MobileBig>
+                        <FormFaleConoscoMobile
+                            textos={this.textoFaleConosoc}
+                        ></FormFaleConoscoMobile>
+                    </MobileBig>
+
+                    <Tablet>
+                        <FormFaleConoscoTablet
+                            textos={this.textoFaleConosoc}
+                        ></FormFaleConoscoTablet>
+                    </Tablet>
+
+                    <DesktopSmall>
+                        <FormFaleConosco
+                            textos={this.textoFaleConosoc}
+                        ></FormFaleConosco>
+                    </DesktopSmall>
+
+                    <DesktopNormal>
+                        <FormFaleConosco
+                            textos={this.textoFaleConosoc}
+                        ></FormFaleConosco>
+                    </DesktopNormal>
+
+                    <DesktopBig>
+                        <FormFaleConosco
+                            textos={this.textoFaleConosoc}
+                        ></FormFaleConosco>
+                    </DesktopBig>
+
+                    {/* FIM FORMULÁRIO */}
                 </div>
 
                 {/* FOOTER */}
