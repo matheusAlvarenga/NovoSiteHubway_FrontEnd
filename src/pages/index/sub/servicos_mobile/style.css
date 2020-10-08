@@ -1,0 +1,124 @@
+.servicos-resumo-m-container {
+    padding: 30px 0px;
+    width: 100%;
+    background: url('../../../../assets/background_triangulo.jpg'), #000;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos-resumo-m-container .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos-resumo-m-container .header .acima {
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.servicos-resumo-m-container .header .titulo {
+    font-weight: 600;
+    font-size: 36px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.servicos-resumo-m-container .header .paragrafo {
+    color: #dfdfdf;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+}
+
+.servicos-resumo-m-container .lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.servicos-resumo-m-container .lista .servico {
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+    width: 100%;
+    height: 225px;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #ad00ff 0%, #2c60c5 100%);
+    border-image-source: -webkit-linear-gradient(
+        to right,
+        #ad00ff 0%,
+        #2c60c5 100%
+    );
+    border-image-source: -moz-linear-gradient(
+        to right,
+        #ad00ff 0%,
+        #2c60c5 100%
+    );
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.servicos-resumo-m-container .lista .servico:hover {
+    border-image-source: linear-gradient(to right, #fff 0%, #fff 100%);
+    background: -moz-linear-gradient(
+        to right,
+        rgba(173, 0, 255, 0.4) 0%,
+        rgba(44, 96, 197, 0.4) 100%
+    );
+    background: -webkit-linear-gradient(
+        to right,
+        rgba(173, 0, 255, 0.4) 0%,
+        rgba(44, 96, 197, 0.4) 100%
+    );
+    background: linear-gradient(
+        to right,
+        rgba(173, 0, 255, 0.4) 0%,
+        rgba(44, 96, 197, 0.4) 100%
+    );
+}
+
+.servicos-resumo-m-container .lista .servico p {
+    width: 80%;
+    color: white;
+    margin-top: 15px;
+    font-size: 23px;
+    line-height: 100%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.servicos-resumo-m-container .ver-mais {
+    color: white;
+    font-size: 23px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.servicos-resumo-m-container .ver-mais:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(173, 0, 255, 1);
+}
