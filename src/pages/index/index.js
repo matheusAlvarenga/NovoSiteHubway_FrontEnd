@@ -14,6 +14,7 @@ import ServicosTablet from './sub/servicos_tablet';
 import ServicosDesktopSmall from './sub/servicos_desktop_small';
 
 import SobreNos from './sub/sobre_nos';
+import SobreNosMobile from './sub/sobre_nos_mobile';
 
 import Contadores from './sub/contadores';
 
@@ -169,7 +170,42 @@ export default class Index extends Component {
 
                     {/* FIM SERVICOS */}
 
-                    <SobreNos textos={this.textoSobreNos}></SobreNos>
+                    {/* SOBRE NOS */}
+
+                    <Mobile>
+                        <SobreNosMobile
+                            textos={this.textoSobreNos}
+                        ></SobreNosMobile>
+                    </Mobile>
+
+                    <MobileBig>
+                        <SobreNosMobile
+                            textos={this.textoSobreNos}
+                        ></SobreNosMobile>
+                    </MobileBig>
+
+                    <Tablet>
+                        <SobreNosMobile
+                            textos={this.textoSobreNos}
+                        ></SobreNosMobile>
+                    </Tablet>
+
+                    <DesktopSmall>
+                        <SobreNosMobile
+                            textos={this.textoSobreNos}
+                        ></SobreNosMobile>
+                    </DesktopSmall>
+
+                    <DesktopNormal>
+                        <SobreNos textos={this.textoSobreNos}></SobreNos>
+                    </DesktopNormal>
+
+                    <DesktopBig>
+                        <SobreNos textos={this.textoSobreNos}></SobreNos>
+                    </DesktopBig>
+
+                    {/* FIM SOBRE NOS */}
+
                     <Contadores
                         dados={this.contadores}
                         textos={this.textoContadores}
