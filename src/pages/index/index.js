@@ -17,6 +17,7 @@ import SobreNos from './sub/sobre_nos';
 import SobreNosMobile from './sub/sobre_nos_mobile';
 
 import Contadores from './sub/contadores';
+import ContadoresMobile from './sub/contadores_mobile';
 
 import BannerFaleConosco from '../banner_fale_conosco';
 
@@ -206,10 +207,52 @@ export default class Index extends Component {
 
                     {/* FIM SOBRE NOS */}
 
-                    <Contadores
-                        dados={this.contadores}
-                        textos={this.textoContadores}
-                    ></Contadores>
+                    {/* CONTADORES */}
+
+                    <Mobile>
+                        <ContadoresMobile
+                            dados={this.contadores}
+                            textos={this.textoContadores}
+                        ></ContadoresMobile>
+                    </Mobile>
+
+                    <MobileBig>
+                        <ContadoresMobile
+                            dados={this.contadores}
+                            textos={this.textoContadores}
+                        ></ContadoresMobile>
+                    </MobileBig>
+
+                    <Tablet>
+                        <ContadoresMobile
+                            dados={this.contadores}
+                            textos={this.textoContadores}
+                        ></ContadoresMobile>
+                    </Tablet>
+
+                    <DesktopSmall>
+                        <Contadores
+                            dados={this.contadores}
+                            textos={this.textoContadores}
+                        ></Contadores>
+                    </DesktopSmall>
+
+                    <DesktopNormal>
+                        <Contadores
+                            dados={this.contadores}
+                            textos={this.textoContadores}
+                        ></Contadores>
+                    </DesktopNormal>
+
+                    <DesktopBig>
+                        <Contadores
+                            dados={this.contadores}
+                            textos={this.textoContadores}
+                        ></Contadores>
+                    </DesktopBig>
+
+                    {/* FIM CONTADORES */}
+
                     <BannerFaleConosco
                         textos={this.textoBanner}
                     ></BannerFaleConosco>
