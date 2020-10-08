@@ -1,9 +1,9 @@
-.servicos-resumo-t-container {
+.tecnologias-resumo-t-container {
     padding: 30px 0px;
     width: 100%;
-    background: url('../../../../assets/background_triangulo.jpg'), #000;
-    background-repeat: no-repeat;
-    background-size: auto;
+    background: url('../../../../assets/background_triangulo_b.png');
+    background-repeat: repeat;
+    background-size: cover;
     background-position: bottom;
     display: flex;
     flex-direction: column;
@@ -11,14 +11,14 @@
     align-items: center;
 }
 
-.servicos-resumo-t-container .header {
+.tecnologias-resumo-t-container .header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.servicos-resumo-t-container .header .acima {
+.tecnologias-resumo-t-container .header .acima {
     -webkit-background-clip: text !important;
     -moz-background-clip: text;
     background-clip: text;
@@ -29,24 +29,26 @@
     text-transform: uppercase;
 }
 
-.servicos-resumo-t-container .header .titulo {
+.tecnologias-resumo-t-container .header .titulo {
     width: 80vw;
+    text-align: center;
     font-weight: 600;
     font-size: 36px;
-    color: white;
+    color: black;
     text-transform: uppercase;
     text-align: center;
 }
 
-.servicos-resumo-t-container .header .paragrafo {
+.tecnologias-resumo-t-container .header .paragrafo {
     width: 80vw;
-    color: #dfdfdf;
+    text-align: center;
+    color: #141414;
     font-size: 15px;
     line-height: 30px;
     letter-spacing: 0.025em;
 }
 
-.servicos-resumo-t-container .lista {
+.tecnologias-resumo-t-container .lista {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -56,7 +58,7 @@
     margin-bottom: 50px;
 }
 
-.servicos-resumo-t-container .lista .servico {
+.tecnologias-resumo-t-container .lista .tech {
     margin: 7px;
 
     width: 45%;
@@ -83,43 +85,50 @@
     cursor: pointer;
 }
 
-.servicos-resumo-t-container .lista .servico:hover {
-    border-image-source: linear-gradient(to right, #fff 0%, #fff 100%);
+.tecnologias-resumo-t-container .lista .tech:hover {
+    border-image-source: linear-gradient(to right, #141414 0%, #141414 100%);
     background: -moz-linear-gradient(
         to right,
-        rgba(173, 0, 255, 0.4) 0%,
-        rgba(44, 96, 197, 0.4) 100%
+        rgba(173, 0, 255, 0.7) 0%,
+        rgba(44, 96, 197, 0.7) 100%
     );
     background: -webkit-linear-gradient(
         to right,
-        rgba(173, 0, 255, 0.4) 0%,
-        rgba(44, 96, 197, 0.4) 100%
+        rgba(173, 0, 255, 0.7) 0%,
+        rgba(44, 96, 197, 0.7) 100%
     );
     background: linear-gradient(
         to right,
-        rgba(173, 0, 255, 0.4) 0%,
-        rgba(44, 96, 197, 0.4) 100%
+        rgba(173, 0, 255, 0.7) 0%,
+        rgba(44, 96, 197, 0.7) 100%
     );
 }
 
-.servicos-resumo-t-container .lista .servico p {
+.tecnologias-resumo-t-container .lista .tech img {
     width: 80%;
-    color: white;
+    margin-bottom: 15px;
+}
+
+.tecnologias-resumo-t-container .lista .tech p {
+    width: 80%;
+    color: #141414;
     margin-top: 15px;
     font-size: 23px;
     line-height: 100%;
     font-weight: 400;
     text-align: center;
+    width: 50%;
+    text-transform: uppercase;
 }
 
-.servicos-resumo-t-container .ver-mais {
-    color: white;
+.tecnologias-resumo-t-container .ver-mais {
+    color: black;
     font-size: 23px;
     text-transform: uppercase;
     cursor: pointer;
 }
 
-.servicos-resumo-t-container .ver-mais:hover {
+.tecnologias-resumo-t-container .ver-mais:hover {
     text-decoration: underline;
     text-decoration-color: rgba(173, 0, 255, 1);
 }

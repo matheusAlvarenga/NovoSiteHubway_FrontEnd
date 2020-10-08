@@ -24,6 +24,9 @@ import BannerFaleConoscoMobile from '../banner_fale_conosco_mobile';
 import BannerFaleConoscoSmall from '../banner_fale_conosco_small';
 
 import Tecnologias from './sub/tecnologias';
+import TecnologiasMobile from './sub/tecnologias_mobile';
+import TecnologiasTablet from './sub/tecnologias_tablet';
+import TecnologiasDesktopSmall from './sub/tecnologias_desktop_small';
 
 import Feedback from '../feedback';
 
@@ -295,14 +298,57 @@ export default class Index extends Component {
 
                     {/* FIM BANNER FALE CONOSCO */}
 
-                    <Tecnologias
-                        dados={this.tecnologias}
-                        textos={this.textoTecnologias}
-                    ></Tecnologias>
+                    {/* TECNOLOGIAS */}
+
+                    <Mobile>
+                        <TecnologiasMobile
+                            dados={this.tecnologias}
+                            textos={this.textoTecnologias}
+                        ></TecnologiasMobile>
+                    </Mobile>
+
+                    <MobileBig>
+                        <TecnologiasTablet
+                            dados={this.tecnologias}
+                            textos={this.textoTecnologias}
+                        ></TecnologiasTablet>
+                    </MobileBig>
+
+                    <Tablet>
+                        <TecnologiasTablet
+                            dados={this.tecnologias}
+                            textos={this.textoTecnologias}
+                        ></TecnologiasTablet>
+                    </Tablet>
+
+                    <DesktopSmall>
+                        <TecnologiasDesktopSmall
+                            dados={this.tecnologias}
+                            textos={this.textoTecnologias}
+                        ></TecnologiasDesktopSmall>
+                    </DesktopSmall>
+
+                    <DesktopNormal>
+                        <Tecnologias
+                            dados={this.tecnologias}
+                            textos={this.textoTecnologias}
+                        ></Tecnologias>
+                    </DesktopNormal>
+
+                    <DesktopBig>
+                        <Tecnologias
+                            dados={this.tecnologias}
+                            textos={this.textoTecnologias}
+                        ></Tecnologias>
+                    </DesktopBig>
+
+                    {/* FIM TECNOLOGIAS */}
+
                     <Feedback
                         dados={this.feedbacks}
                         textos={this.textoFeedback}
                     ></Feedback>
+
                     <FormFaleConosco
                         textos={this.textoFaleConosoc}
                     ></FormFaleConosco>
