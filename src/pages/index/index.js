@@ -29,6 +29,8 @@ import TecnologiasTablet from './sub/tecnologias_tablet';
 import TecnologiasDesktopSmall from './sub/tecnologias_desktop_small';
 
 import Feedback from '../feedback';
+import FeedbackMobile from '../feedback_mobile';
+import FeedbackSmall from '../feedback_small';
 
 import FormFaleConosco from '../form_fale_conosco';
 
@@ -344,10 +346,51 @@ export default class Index extends Component {
 
                     {/* FIM TECNOLOGIAS */}
 
-                    <Feedback
-                        dados={this.feedbacks}
-                        textos={this.textoFeedback}
-                    ></Feedback>
+                    {/* FEEDBACKS */}
+
+                    <Mobile>
+                        <FeedbackMobile
+                            dados={this.feedbacks}
+                            textos={this.textoFeedback}
+                        ></FeedbackMobile>
+                    </Mobile>
+
+                    <MobileBig>
+                        <FeedbackMobile
+                            dados={this.feedbacks}
+                            textos={this.textoFeedback}
+                        ></FeedbackMobile>
+                    </MobileBig>
+
+                    <Tablet>
+                        <FeedbackMobile
+                            dados={this.feedbacks}
+                            textos={this.textoFeedback}
+                        ></FeedbackMobile>
+                    </Tablet>
+
+                    <DesktopSmall>
+                        <FeedbackSmall
+                            dados={this.feedbacks}
+                            textos={this.textoFeedback}
+                        ></FeedbackSmall>
+                    </DesktopSmall>
+
+                    <DesktopNormal>
+                        <Feedback
+                            dados={this.feedbacks}
+                            textos={this.textoFeedback}
+                        ></Feedback>
+                    </DesktopNormal>
+
+                    <DesktopBig>
+                        <Feedback
+                            dados={this.feedbacks}
+                            textos={this.textoFeedback}
+                        ></Feedback>
+                    </DesktopBig>
+
+                    {/* FIM FEEDBACKS */}
 
                     <FormFaleConosco
                         textos={this.textoFaleConosoc}
