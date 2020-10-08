@@ -20,6 +20,8 @@ import Contadores from './sub/contadores';
 import ContadoresMobile from './sub/contadores_mobile';
 
 import BannerFaleConosco from '../banner_fale_conosco';
+import BannerFaleConoscoMobile from '../banner_fale_conosco_mobile';
+import BannerFaleConoscoSmall from '../banner_fale_conosco_small';
 
 import Tecnologias from './sub/tecnologias';
 
@@ -253,9 +255,46 @@ export default class Index extends Component {
 
                     {/* FIM CONTADORES */}
 
-                    <BannerFaleConosco
-                        textos={this.textoBanner}
-                    ></BannerFaleConosco>
+                    {/* BANNER FALE CONOSCO */}
+
+                    <Mobile>
+                        <BannerFaleConoscoMobile
+                            textos={this.textoBanner}
+                        ></BannerFaleConoscoMobile>
+                    </Mobile>
+
+                    <MobileBig>
+                        <BannerFaleConoscoMobile
+                            textos={this.textoBanner}
+                        ></BannerFaleConoscoMobile>
+                    </MobileBig>
+
+                    <Tablet>
+                        <BannerFaleConoscoMobile
+                            textos={this.textoBanner}
+                        ></BannerFaleConoscoMobile>
+                    </Tablet>
+
+                    <DesktopSmall>
+                        <BannerFaleConoscoSmall
+                            textos={this.textoBanner}
+                        ></BannerFaleConoscoSmall>
+                    </DesktopSmall>
+
+                    <DesktopNormal>
+                        <BannerFaleConosco
+                            textos={this.textoBanner}
+                        ></BannerFaleConosco>
+                    </DesktopNormal>
+
+                    <DesktopBig>
+                        <BannerFaleConosco
+                            textos={this.textoBanner}
+                        ></BannerFaleConosco>
+                    </DesktopBig>
+
+                    {/* FIM BANNER FALE CONOSCO */}
+
                     <Tecnologias
                         dados={this.tecnologias}
                         textos={this.textoTecnologias}

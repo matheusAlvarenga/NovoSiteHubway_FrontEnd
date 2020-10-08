@@ -1,0 +1,29 @@
+.banner-faleconosco-container {
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('../../assets/banner_faleconosco/photo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-faleconosco-container p {
+    margin-left: 5vw;
+    font-weight: 600;
+    font-size: 32.0115px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    text-shadow: -1px -1px 0 #00305b, 1px -1px 0 #00305b, -1px 1px 0 #00305b,
+        1px 1px 0 #00305b;
+
+    -webkit-text-stroke: 1px solid #00305b;
+}
+
+.banner-faleconosco-container button {
+    margin-right: 5vw;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+}
