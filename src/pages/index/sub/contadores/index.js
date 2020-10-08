@@ -1,4 +1,6 @@
 import React from 'react';
+import CountUp, { useCountUp } from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
 
 import Imagem1 from '../../../../assets/index/photo_2.png';
 
@@ -12,7 +14,18 @@ function mapContadores(dados) {
             numero = (
                 <div className="cima">
                     <p className="mais">+</p>
-                    <p className="numero">{parseInt(contador.numero)}</p>
+                    <CountUp
+                        duration={3}
+                        start={0}
+                        end={parseInt(contador.numero)}
+                        useEasing={false}
+                    >
+                        {({ countUpRef, start }) => (
+                            <VisibilitySensor onChange={start} delayedCall>
+                                <span className="numero" ref={countUpRef} />
+                            </VisibilitySensor>
+                        )}
+                    </CountUp>
                     <p className="mil">K</p>
                 </div>
             );
@@ -22,7 +35,18 @@ function mapContadores(dados) {
             numero = (
                 <div className="cima">
                     <p className="mais">+</p>
-                    <p className="numero">{parseInt(contador.numero)}</p>
+                    <CountUp
+                        duration={3}
+                        start={0}
+                        end={parseInt(contador.numero)}
+                        useEasing={false}
+                    >
+                        {({ countUpRef, start }) => (
+                            <VisibilitySensor onChange={start} delayedCall>
+                                <span className="numero" ref={countUpRef} />
+                            </VisibilitySensor>
+                        )}
+                    </CountUp>
                 </div>
             );
         }
@@ -30,7 +54,18 @@ function mapContadores(dados) {
         if (!contador.numero.includes('+') && contador.numero.includes('K')) {
             numero = (
                 <div className="cima">
-                    <p className="numero">{parseInt(contador.numero)}</p>
+                    <CountUp
+                        duration={3}
+                        start={0}
+                        end={parseInt(contador.numero)}
+                        useEasing={false}
+                    >
+                        {({ countUpRef, start }) => (
+                            <VisibilitySensor onChange={start} delayedCall>
+                                <span className="numero" ref={countUpRef} />
+                            </VisibilitySensor>
+                        )}
+                    </CountUp>
                     <p className="mil">K</p>
                 </div>
             );
@@ -39,7 +74,18 @@ function mapContadores(dados) {
         if (!contador.numero.includes('+') && !contador.numero.includes('K')) {
             numero = (
                 <div className="cima">
-                    <p className="numero">{parseInt(contador.numero)}</p>
+                    <CountUp
+                        duration={3}
+                        start={0}
+                        end={parseInt(contador.numero)}
+                        useEasing={false}
+                    >
+                        {({ countUpRef, start }) => (
+                            <VisibilitySensor onChange={start} delayedCall>
+                                <span className="numero" ref={countUpRef} />
+                            </VisibilitySensor>
+                        )}
+                    </CountUp>
                 </div>
             );
         }
