@@ -12,6 +12,8 @@ import FormFaleConosco from '../form_fale_conosco';
 import FormFaleConoscoMobile from '../form_fale_conosco_mobile';
 import FormFaleConoscoTablet from '../form_fale_conosco_tablet';
 
+import Mapa from './sub/mapa';
+
 import Contato from './sub/contatos';
 
 import Footer from '../footer';
@@ -120,7 +122,7 @@ export default class FaleConosco extends Component {
 
                 {/* FIM FORMULÁRIO */}
 
-                {/* MAPA */}
+                <Mapa dados={this.contatos}></Mapa>
 
                 <Contato dados={this.contatos}></Contato>
 
