@@ -16,6 +16,8 @@ import FeedbackSmall from '../feedback_small';
 import TopOfMind from './sub/topofmind';
 
 import NossosValores from './sub/nossos_valores';
+import NossosValoresMobile from './sub/nossos_valores_mobile';
+import NossosValoresSmall from './sub/nossos_valores_small';
 
 import FormFaleConosco from '../form_fale_conosco';
 import FormFaleConoscoMobile from '../form_fale_conosco_mobile';
@@ -110,7 +112,7 @@ export default class SobreNos extends Component {
                 </MobileBig>
 
                 <NoMobile>
-                    <ImagensMobile textos={this.textoImagens}></ImagensMobile>
+                    <Imagens textos={this.textoImagens}></Imagens>
                 </NoMobile>
 
                 {/* FIM IMAGENS */}
@@ -163,10 +165,51 @@ export default class SobreNos extends Component {
 
                 {/* <TopOfMind></TopOfMind> */}
 
-                <NossosValores
-                    textos={this.textoNossosValores}
-                    dados={this.dadosValores}
-                ></NossosValores>
+                {/* NOSSOS VALORES */}
+
+                <Mobile>
+                    <NossosValoresMobile
+                        textos={this.textoNossosValores}
+                        dados={this.dadosValores}
+                    ></NossosValoresMobile>
+                </Mobile>
+
+                <MobileBig>
+                    <NossosValoresMobile
+                        textos={this.textoNossosValores}
+                        dados={this.dadosValores}
+                    ></NossosValoresMobile>
+                </MobileBig>
+
+                <Tablet>
+                    <NossosValoresSmall
+                        textos={this.textoNossosValores}
+                        dados={this.dadosValores}
+                    ></NossosValoresSmall>
+                </Tablet>
+
+                <DesktopSmall>
+                    <NossosValoresSmall
+                        textos={this.textoNossosValores}
+                        dados={this.dadosValores}
+                    ></NossosValoresSmall>
+                </DesktopSmall>
+
+                <DesktopNormal>
+                    <NossosValores
+                        textos={this.textoNossosValores}
+                        dados={this.dadosValores}
+                    ></NossosValores>
+                </DesktopNormal>
+
+                <DesktopBig>
+                    <NossosValores
+                        textos={this.textoNossosValores}
+                        dados={this.dadosValores}
+                    ></NossosValores>
+                </DesktopBig>
+
+                {/* FIM NOSSOS VALORES */}
 
                 {/* FORMULÁRIO */}
 
