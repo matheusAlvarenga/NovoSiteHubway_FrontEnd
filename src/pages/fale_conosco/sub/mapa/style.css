@@ -3,3 +3,12 @@
     width: 100vw;
     margin-bottom: 50px;
 }
+
+.mapa-container .titulo,
+.corpo {
+    text-align: center;
+}
+
+.mapa-container .pop {
+    cursor: pointer;
+}
