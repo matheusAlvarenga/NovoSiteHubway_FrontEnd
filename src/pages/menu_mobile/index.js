@@ -44,6 +44,7 @@ export default function Menu({ estado = true, click = () => {} }) {
                     </ul>
                     <div className="footer">
                         <h3>Contatos</h3>
+                        <p>Fernando Almeida</p>
                         <p>(11) 99999-9999</p>
                         <p>fernando@hubway.com.br</p>
                     </div>

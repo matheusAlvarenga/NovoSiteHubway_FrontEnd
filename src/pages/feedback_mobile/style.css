@@ -22,27 +22,18 @@
     width: 100vw;
 }
 
-.feedback-m-container .header .esq {
-    margin-left: 100px;
-}
-
 .feedback-m-container .header .esq p {
+    text-align: center;
     font-weight: normal;
     font-size: 13px;
     text-transform: uppercase;
 }
 
 .feedback-m-container .header .esq h2 {
+    text-align: center;
     font-weight: normal;
     font-size: 53.1868px;
     text-transform: uppercase;
-}
-
-.feedback-m-container .header .dir {
-    margin-right: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
 }
 
 .feedback-m-container .header .dir .quadrado {

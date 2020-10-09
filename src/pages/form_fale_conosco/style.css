@@ -1,10 +1,10 @@
 .form-fale-conosco-container {
-    height: 100vh;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
 }
 
 .form-fale-conosco-container .header {
