@@ -37,11 +37,6 @@ export default function Feedback({ dados, textos }) {
                     <p>{textos.acima}</p>
                     <h2>FEEDBACK DE CLIENTES</h2>
                 </div>
-                <div className="dir">
-                    <div className="quadrado"></div>
-                    <div className="quadrado active"></div>
-                    <div className="quadrado"></div>
-                </div>
             </div>
             <div className="embaixo">
                 <div className="seta-esq">

@@ -23,11 +23,13 @@
     font-weight: 800;
     font-size: 15px;
     text-transform: uppercase;
+    text-align: center;
+    width: 80vw;
 }
 
 .form-fale-conosco-m-container .header .titulo {
     text-align: center;
-    width: 38vw;
+    width: 80vw;
     font-weight: 600;
     font-size: 44.2924px;
     color: black;
@@ -36,7 +38,7 @@
 
 .form-fale-conosco-m-container .header .paragrafo {
     text-align: center;
-    width: 48vw;
+    width: 80vw;
     color: #141414;
     font-size: 17px;
     line-height: 30px;
