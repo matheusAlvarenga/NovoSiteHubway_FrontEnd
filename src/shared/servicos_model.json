@@ -2,23 +2,38 @@
     "servicos": [
         {
             "nome": "Inbound Marketing",
-            "icone": "inboundmkt.png"
+            "icone": "inboundmkt.png",
+            "acima": "LOREM IPSUM",
+            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
+            "photo": "1"
         },
         {
             "nome": "SEO",
-            "icone": "seo.png"
+            "icone": "seo.png",
+            "acima": "LOREM IPSUM",
+            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
+            "photo": "1"
         },
         {
             "nome": "Google Ads",
-            "icone": "googleads.png"
+            "icone": "googleads.png",
+            "acima": "LOREM IPSUM",
+            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
+            "photo": "1"
         },
         {
             "nome": "Business Intelligence",
-            "icone": "bintelligence.png"
+            "icone": "bintelligence.png",
+            "acima": "LOREM IPSUM",
+            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
+            "photo": "1"
         },
         {
             "nome": "Criação e Desenvolvimento",
-            "icone": "criacaoedev.png"
+            "icone": "criacaoedev.png",
+            "acima": "LOREM IPSUM",
+            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
+            "photo": "1"
         }
     ]
 }
