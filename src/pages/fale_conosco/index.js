@@ -15,6 +15,7 @@ import FormFaleConoscoTablet from '../form_fale_conosco_tablet';
 import Mapa from './sub/mapa';
 
 import Contato from './sub/contatos';
+import ContatoMobile from './sub/contatos_mobile';
 
 import Footer from '../footer';
 import FooterMobile from '../footer_mobile';
@@ -124,7 +125,33 @@ export default class FaleConosco extends Component {
 
                 <Mapa dados={this.contatos}></Mapa>
 
-                <Contato dados={this.contatos}></Contato>
+                {/* CONTATOS */}
+
+                <Mobile>
+                    <ContatoMobile dados={this.contatos}></ContatoMobile>
+                </Mobile>
+
+                <MobileBig>
+                    <ContatoMobile dados={this.contatos}></ContatoMobile>
+                </MobileBig>
+
+                <Tablet>
+                    <ContatoMobile dados={this.contatos}></ContatoMobile>
+                </Tablet>
+
+                <DesktopSmall>
+                    <Contato dados={this.contatos}></Contato>
+                </DesktopSmall>
+
+                <DesktopNormal>
+                    <Contato dados={this.contatos}></Contato>
+                </DesktopNormal>
+
+                <DesktopBig>
+                    <Contato dados={this.contatos}></Contato>
+                </DesktopBig>
+
+                {/* FIM CONTATOS */}
 
                 {/* FOOTER */}
 
