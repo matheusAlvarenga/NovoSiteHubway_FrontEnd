@@ -12,6 +12,8 @@ import FormFaleConosco from '../form_fale_conosco';
 import FormFaleConoscoMobile from '../form_fale_conosco_mobile';
 import FormFaleConoscoTablet from '../form_fale_conosco_tablet';
 
+import Contato from './sub/contatos';
+
 import Footer from '../footer';
 import FooterMobile from '../footer_mobile';
 
@@ -58,8 +60,9 @@ export default class FaleConosco extends Component {
         super(props);
 
         this.textoBannerPages = fale_conosco_obj.banner;
-
         this.textoForm = fale_conosco_obj.formulario;
+
+        this.contatos = contatos_obj.contatos;
     }
 
     render() {
@@ -119,7 +122,7 @@ export default class FaleConosco extends Component {
 
                 {/* MAPA */}
 
-                {/* CONTATOS */}
+                <Contato dados={this.contatos}></Contato>
 
                 {/* FOOTER */}
 
