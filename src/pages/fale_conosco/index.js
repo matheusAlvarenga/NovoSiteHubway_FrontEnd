@@ -13,6 +13,7 @@ import FormFaleConoscoMobile from '../form_fale_conosco_mobile';
 import FormFaleConoscoTablet from '../form_fale_conosco_tablet';
 
 import Mapa from './sub/mapa';
+import MapaMobile from './sub/mapa_mobile';
 
 import Contato from './sub/contatos';
 import ContatoMobile from './sub/contatos_mobile';
@@ -123,7 +124,21 @@ export default class FaleConosco extends Component {
 
                 {/* FIM FORMULÁRIO */}
 
-                <Mapa dados={this.contatos}></Mapa>
+                {/* MAPA */}
+
+                <Mobile>
+                    <MapaMobile dados={this.contatos}></MapaMobile>
+                </Mobile>
+
+                <MobileBig>
+                    <MapaMobile dados={this.contatos}></MapaMobile>
+                </MobileBig>
+
+                <NoMobile>
+                    <Mapa dados={this.contatos}></Mapa>
+                </NoMobile>
+
+                {/* FIM MAPA */}
 
                 {/* CONTATOS */}
 
