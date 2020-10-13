@@ -13,6 +13,8 @@ import ResumoUm from './sub/resumo_um';
 
 import Portifolio from './sub/portifolio';
 
+import ResumoDois from './sub/resumo_dois';
+
 import Footer from '../footer';
 import FooterMobile from '../footer_mobile';
 
@@ -81,6 +83,8 @@ export default function ServicoIndividual() {
             <ResumoUm textos={dadosServiço.inpage.resumo}></ResumoUm>
 
             <Portifolio textos={dadosServiço.inpage.portifolio}></Portifolio>
+
+            <ResumoDois textos={dadosServiço.inpage.resumo2}></ResumoDois>
 
             {/* FOOTER */}
 
