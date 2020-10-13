@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 import Logo from '../../assets/logo_pq_branco.png';
@@ -27,12 +28,24 @@ export default function Header() {
             </div>
             <div className="menu">
                 <ul>
-                    <li>Início</li>
-                    <li>Sobre Nós</li>
-                    <li>Serviços</li>
-                    <li>Tecnologias</li>
-                    <li>Blog</li>
-                    <li>Fale Conosco</li>
+                    <li>
+                        <Link to="/">Início</Link>
+                    </li>
+                    <li>
+                        <Link to="/sobre-nos">Sobre Nós</Link>
+                    </li>
+                    <li>
+                        <Link to="/servicos">Serviços</Link>
+                    </li>
+                    <li>
+                        <Link to="/tecnologias">Tecnologias</Link>
+                    </li>
+                    <li>
+                        <Link to="/">Blog</Link>
+                    </li>
+                    <li>
+                        <Link to="/fale-conosco">Fale Conosco</Link>
+                    </li>
                 </ul>
             </div>
         </div>

@@ -15,6 +15,10 @@
     text-align: center;
 }
 
+.imagens-m-container .textos img {
+    width: 80vw;
+}
+
 .imagens-m-container .textos .header p {
     font-weight: normal;
     font-size: 12.4886px;

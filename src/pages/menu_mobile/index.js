@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { FiX } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 import './style.css';
 
-export default function Menu({ estado = true, click = () => {} }) {
+export default function Menu({ estado = true, click = () => {}, page }) {
     const [teste, setTeste] = useState(false);
 
     let classes;
@@ -35,12 +36,30 @@ export default function Menu({ estado = true, click = () => {} }) {
                 </div>
                 <div className="menu">
                     <ul>
-                        <li className="active">Início</li>
-                        <li>Sobre Nós</li>
-                        <li>Serviços</li>
-                        <li>Tecnologias</li>
-                        <li>Blog</li>
-                        <li>Fale Conosco</li>
+                        <li className={page == 'home' ? 'active' : 'desactive'}>
+                            <Link to="/">Início</Link>
+                        </li>
+                        <li
+                            className={page == 'sobre' ? 'active' : 'desactive'}
+                        >
+                            <Link to="/sobre-nos">Sobre Nós</Link>
+                        </li>
+                        <li
+                            className={
+                                page == 'servicos' ? 'active' : 'desactive'
+                            }
+                        >
+                            <Link to="/servicos">Serviços</Link>
+                        </li>
+                        <li className={page == 'tech' ? 'active' : 'desactive'}>
+                            <Link to="/tecnologias">Tecnologias</Link>
+                        </li>
+                        <li className={page == 'blog' ? 'active' : 'desactive'}>
+                            <Link to="/">Blog</Link>
+                        </li>
+                        <li className={page == 'fale' ? 'active' : 'desactive'}>
+                            <Link to="/">Fale Conosco</Link>
+                        </li>
                     </ul>
                     <div className="footer">
                         <h3>Contatos</h3>

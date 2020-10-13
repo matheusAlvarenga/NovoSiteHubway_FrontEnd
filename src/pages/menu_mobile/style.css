@@ -69,13 +69,17 @@
 
 .mobile-menu-container .menu ul li {
     width: 60vw;
-    color: white;
     padding: 8px;
     list-style: none;
     font-weight: 300;
     font-size: 5vw;
     line-height: 44px;
     border-bottom: 1px solid #505050;
+}
+
+.mobile-menu-container .menu ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 .mobile-menu-container .menu ul li:hover {
