@@ -1,0 +1,62 @@
+.portifolio-container {
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portifolio-container .lista .item {
+    color: #141414;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    width: 40px;
+    height: 60px;
+    border-top: 3px solid #dfdfdf;
+    border-left: 3px solid #dfdfdf;
+    border-bottom: 3px solid #dfdfdf;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.portifolio-container .lista .item.active {
+    border-top: 3px solid;
+    border-left: 3px solid;
+    border-bottom: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #ad00ff 0%, #2c60c5 100%);
+    border-image-source: -webkit-linear-gradient(
+        to right,
+        #ad00ff 0%,
+        #2c60c5 100%
+    );
+    border-image-source: -moz-linear-gradient(
+        to right,
+        #ad00ff 0%,
+        #2c60c5 100%
+    );
+}
+
+.portifolio-container .lista .item p {
+    transform: rotate(-90deg);
+}
+
+.portifolio-container .fotos img {
+    padding: 0;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+    width: 80vw;
+}
+
+.portifolio-container .fotos .desativado {
+    display: none;
+}
+
+.portifolio-container .fotos .ativado {
+    display: block;
+}
