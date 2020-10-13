@@ -1,0 +1,45 @@
+.texto-servico-container-m {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100vw;
+}
+
+.texto-servico-container-m .acima {
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: 500;
+    font-size: 17.6415px;
+    line-height: 26px;
+}
+
+.texto-servico-container-m .titulo {
+    min-width: 80%;
+    font-weight: 600;
+    font-size: 56.2847px;
+    line-height: 83px;
+
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.texto-servico-container-m .resumo {
+    width: 80%;
+    margin-top: 20px;
+
+    font-weight: normal;
+    font-size: 21.6028px;
+    line-height: 38px;
+    letter-spacing: 0.025em;
+    color: #141414;
+}
+
+.texto-servico-container-m .btn {
+    margin-top: 25px;
+}

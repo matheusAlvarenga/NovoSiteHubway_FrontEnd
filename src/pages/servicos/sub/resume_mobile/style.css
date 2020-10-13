@@ -1,0 +1,12 @@
+.resumo-servico-container-m {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px 100px;
+}
+
+.resumo-servico-container-m img {
+    width: 60vw;
+}

@@ -9,6 +9,7 @@ import HeaderMobile from '../header_mobile';
 import BannerPages from '../banner_pages';
 
 import ResumoServicos from './sub/resume';
+import ResumoServicosMobile from './sub/resume_mobile';
 
 import Footer from '../footer';
 import FooterMobile from '../footer_mobile';
@@ -57,6 +58,12 @@ function mapServicos(dados) {
     });
 }
 
+function mapServicosMobile(dados) {
+    return dados.map((ser, key) => {
+        return <ResumoServicosMobile dados={ser} chave={key}></ResumoServicosMobile>;
+    });
+}
+
 export default class Servicos extends Component {
     constructor(props) {
         super(props);
@@ -89,7 +96,33 @@ export default class Servicos extends Component {
 
                 {/* Resumo Servico */}
 
-                {mapServicos(this.dadosServicos)}
+                {/* SERVICOS */}
+
+                    <Mobile>
+                    {mapServicosMobile(this.dadosServicos)}
+                    </Mobile>
+
+                    <MobileBig>
+                        {mapServicosMobile(this.dadosServicos)}
+                    </MobileBig>
+
+                    <Tablet>
+                        {mapServicosMobile(this.dadosServicos)}
+                    </Tablet>
+
+                    <DesktopSmall>
+                        {mapServicosMobile(this.dadosServicos)}
+                    </DesktopSmall>
+
+                    <DesktopNormal>
+                        {mapServicos(this.dadosServicos)}
+                    </DesktopNormal>
+
+                    <DesktopBig>
+                        {mapServicos(this.dadosServicos)}
+                    </DesktopBig>
+
+                    {/* FIM SERVICOS */}
 
                 {/* FOOTER */}
 
