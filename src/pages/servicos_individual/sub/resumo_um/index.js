@@ -2,10 +2,15 @@ import React from 'react';
 
 import './style.css';
 
-export default function ResumoUm({ dados }) {
+export default function ResumoUm({ textos }) {
     return (
-        <div>
-            <p>Resumo</p>
+        <div className="servico-resumo-container">
+            <img src={textos.foto} />
+            <div className="right">
+                <h2 className="titulo">{textos.titulo}</h2>
+                <p className="subtitulo texto-gradiente">{textos.subtitulo}</p>
+                <p className="texto">{textos.texto}</p>
+            </div>
         </div>
     );
 }
