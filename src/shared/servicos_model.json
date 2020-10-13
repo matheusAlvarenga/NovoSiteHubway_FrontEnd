@@ -5,35 +5,270 @@
             "icone": "inboundmkt.png",
             "acima": "LOREM IPSUM",
             "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
-            "photo": "1"
+            "photo": "1",
+            "inpage": {
+                "banner": {
+                    "breadcrumb": "INÍCIO - SERVIÇOS - Inbound MArketing",
+                    "titulo": "Inbound Marketing"
+                },
+                "resumo": {
+                    "foto": "1.png",
+                    "titulo": "“LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT”",
+                    "subtitulo": "LOREM IPSUM",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet."
+                },
+                "portifolio": [
+                    "foto1.png",
+                    "foto2.png",
+                    "foto3.png",
+                    "foto4.png",
+                    "foto5.png"
+                ],
+                "listagem": {
+                    "acima": "TODOS SERVIÇOS",
+                    "titulo": "TODOS SERVIÇOS",
+                    "lista": [
+                        {
+                            "titulo": "Tecnologias",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        },
+                        {
+                            "titulo": "UI/UX Design",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        },
+                        {
+                            "titulo": "Desenvolvimento",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        },
+                        {
+                            "titulo": "Metodologias",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        }
+                    ]
+                },
+                "resumo2": {
+                    "acima": "LOREM IPSUM",
+                    "titulo": "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR.",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet."
+                },
+                "foto": "1.png"
+            }
         },
         {
             "nome": "SEO",
             "icone": "seo.png",
             "acima": "LOREM IPSUM",
             "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
-            "photo": "1"
+            "photo": "1",
+            "inpage": {
+                "banner": {
+                    "breadcrumb": "INÍCIO - SERVIÇOS - SEO",
+                    "titulo": "SEO"
+                },
+                "resumo": {
+                    "foto": "1.png",
+                    "titulo": "“LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT”",
+                    "subtitulo": "LOREM IPSUM",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet."
+                },
+                "portifolio": [
+                    "foto1.png",
+                    "foto2.png",
+                    "foto3.png",
+                    "foto4.png",
+                    "foto5.png"
+                ],
+                "listagem": {
+                    "acima": "TODOS SERVIÇOS",
+                    "titulo": "TODOS SERVIÇOS",
+                    "lista": [
+                        {
+                            "titulo": "Tecnologias",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        },
+                        {
+                            "titulo": "UI/UX Design",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        },
+                        {
+                            "titulo": "Desenvolvimento",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        },
+                        {
+                            "titulo": "Metodologias",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        }
+                    ]
+                },
+                "resumo2": {
+                    "acima": "LOREM IPSUM",
+                    "titulo": "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR.",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet."
+                },
+                "foto": "1.png"
+            }
         },
         {
             "nome": "Google Ads",
             "icone": "googleads.png",
             "acima": "LOREM IPSUM",
             "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
-            "photo": "1"
+            "photo": "1",
+            "inpage": {
+                "banner": {
+                    "breadcrumb": "INÍCIO - SERVIÇOS - Google Ads",
+                    "titulo": "Google Ads"
+                },
+                "resumo": {
+                    "foto": "1.png",
+                    "titulo": "“LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT”",
+                    "subtitulo": "LOREM IPSUM",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet."
+                },
+                "portifolio": [
+                    "foto1.png",
+                    "foto2.png",
+                    "foto3.png",
+                    "foto4.png",
+                    "foto5.png"
+                ],
+                "listagem": {
+                    "acima": "TODOS SERVIÇOS",
+                    "titulo": "TODOS SERVIÇOS",
+                    "lista": [
+                        {
+                            "titulo": "Tecnologias",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        },
+                        {
+                            "titulo": "UI/UX Design",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        },
+                        {
+                            "titulo": "Desenvolvimento",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        },
+                        {
+                            "titulo": "Metodologias",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        }
+                    ]
+                },
+                "resumo2": {
+                    "acima": "LOREM IPSUM",
+                    "titulo": "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR.",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet."
+                },
+                "foto": "1.png"
+            }
         },
         {
             "nome": "Business Intelligence",
             "icone": "bintelligence.png",
             "acima": "LOREM IPSUM",
             "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
-            "photo": "1"
+            "photo": "1",
+            "inpage": {
+                "banner": {
+                    "breadcrumb": "INÍCIO - SERVIÇOS - Business Intelligence",
+                    "titulo": "Business Intelligence"
+                },
+                "resumo": {
+                    "foto": "1.png",
+                    "titulo": "“LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT”",
+                    "subtitulo": "LOREM IPSUM",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet."
+                },
+                "portifolio": [
+                    "foto1.png",
+                    "foto2.png",
+                    "foto3.png",
+                    "foto4.png",
+                    "foto5.png"
+                ],
+                "listagem": {
+                    "acima": "TODOS SERVIÇOS",
+                    "titulo": "TODOS SERVIÇOS",
+                    "lista": [
+                        {
+                            "titulo": "Tecnologias",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        },
+                        {
+                            "titulo": "UI/UX Design",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        },
+                        {
+                            "titulo": "Desenvolvimento",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        },
+                        {
+                            "titulo": "Metodologias",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        }
+                    ]
+                },
+                "resumo2": {
+                    "acima": "LOREM IPSUM",
+                    "titulo": "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR.",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet."
+                },
+                "foto": "1.png"
+            }
         },
         {
             "nome": "Criação e Desenvolvimento",
             "icone": "criacaoedev.png",
             "acima": "LOREM IPSUM",
             "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
-            "photo": "1"
+            "photo": "1",
+            "inpage": {
+                "banner": {
+                    "breadcrumb": "INÍCIO - SERVIÇOS - Criação e Desenvolvimento",
+                    "titulo": "Criação e Desenvolvimento"
+                },
+                "resumo": {
+                    "foto": "1.png",
+                    "titulo": "“LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT”",
+                    "subtitulo": "LOREM IPSUM",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet."
+                },
+                "portifolio": [
+                    "foto1.png",
+                    "foto2.png",
+                    "foto3.png",
+                    "foto4.png",
+                    "foto5.png"
+                ],
+                "listagem": {
+                    "acima": "TODOS SERVIÇOS",
+                    "titulo": "TODOS SERVIÇOS",
+                    "lista": [
+                        {
+                            "titulo": "Tecnologias",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        },
+                        {
+                            "titulo": "UI/UX Design",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        },
+                        {
+                            "titulo": "Desenvolvimento",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        },
+                        {
+                            "titulo": "Metodologias",
+                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                        }
+                    ]
+                },
+                "resumo2": {
+                    "acima": "LOREM IPSUM",
+                    "titulo": "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR.",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet."
+                },
+                "foto": "1.png"
+            }
         }
     ]
 }

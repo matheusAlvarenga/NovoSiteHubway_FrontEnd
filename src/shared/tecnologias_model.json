@@ -1,16 +1,32 @@
 {
     "tecnologias": [
         {
-            "nome": "Moskit CRM"
+            "nome": "Moskit CRM",
+            "logo": "img.png",
+            "acima": "LOREM IPSUM",
+            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
+            "photo": "1"
         },
         {
-            "nome": "RD Station"
+            "nome": "RD Station",
+            "logo": "img.png",
+            "acima": "LOREM IPSUM",
+            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
+            "photo": "1"
         },
         {
-            "nome": "Dinamize"
+            "nome": "Dinamize",
+            "logo": "img.png",
+            "acima": "LOREM IPSUM",
+            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
+            "photo": "1"
         },
         {
-            "nome": "Chatbot"
+            "nome": "Chatbot",
+            "logo": "img.png",
+            "acima": "LOREM IPSUM",
+            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
+            "photo": "1"
         }
     ]
 }

@@ -1,0 +1,29 @@
+.resumo-servico-container-left {
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 100px;
+}
+
+.resumo-servico-container-right {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 100px;
+}
+
+.resumo-servico-container-left img {
+    width: 45vw;
+    object-fit: cover;
+}
+
+.resumo-servico-container-right img {
+    width: 45vw;
+    object-fit: cover;
+}
