@@ -1,0 +1,100 @@
+.listagem-servico-m-container {
+    padding: 80px 0px;
+    background-image: url('../../../../assets/background_triangulo.jpg');
+    background-size: auto;
+    background-position: bottom;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.listagem-servico-m-container .header {
+    margin-bottom: 50px;
+}
+
+.listagem-servico-m-container .header p {
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: 800;
+    text-align: center;
+    font-size: 11px;
+}
+
+.listagem-servico-m-container .header h2 {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.listagem-servico-m-container .list {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    color: white;
+}
+
+.listagem-servico-m-container .list .item {
+    width: 45%;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.listagem-servico-m-container .list .item .titulo {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+
+    color: #ffffff;
+
+    margin-bottom: 20px;
+}
+
+.listagem-servico-m-container .list .item .divider {
+    height: 4px;
+    width: 30%;
+
+    margin-bottom: 20px;
+}
+
+.listagem-servico-m-container .list .item ul {
+    list-style: none;
+}
+
+.listagem-servico-m-container .list .item ul li {
+    margin-bottom: 5px;
+}
+
+.listagem-servico-m-container .list .item ul li div {
+    display: flex;
+
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #ffffff;
+}
+
+.listagem-servico-m-container .list .item ul li div p {
+    margin-right: 15px;
+}
+
+.listagem-servico-m-container .list .item ul li div p + p {
+    margin-right: 0px;
+}

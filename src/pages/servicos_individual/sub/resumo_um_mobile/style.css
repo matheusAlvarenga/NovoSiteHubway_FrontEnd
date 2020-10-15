@@ -1,0 +1,54 @@
+.servico-resumo-m-container {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 70px;
+    margin: 20px 0px;
+}
+
+.servico-resumo-m-container img {
+    margin-top: 20px;
+    width: 80vw;
+    object-fit: cover;
+}
+
+.servico-resumo-m-container .right {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    text-align: right;
+}
+
+.servico-resumo-m-container .right .titulo {
+    width: 100%;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+}
+
+.servico-resumo-m-container .right .subtitulo {
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+
+    margin-bottom: 30px;
+}
+
+.servico-resumo-m-container .right .texto {
+    width: 90%;
+    font-weight: normal;
+    font-size: 21.6028px;
+    line-height: 38px;
+    letter-spacing: 0.025em;
+    color: #141414;
+}

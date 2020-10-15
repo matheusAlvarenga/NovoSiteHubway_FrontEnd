@@ -1,0 +1,46 @@
+.resumo-2-servicos-s-container {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resumo-2-servicos-s-container .left {
+    margin-left: 8vw;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.resumo-2-servicos-s-container .left .acima {
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: 600;
+    font-size: 17.6415px;
+    line-height: 26px;
+}
+
+.resumo-2-servicos-s-container .left .titulo {
+    font-weight: 600;
+    font-size: 56.2847px;
+    line-height: 83px;
+    margin-bottom: 20px;
+}
+
+.resumo-2-servicos-s-container .left .texto {
+    font-weight: normal;
+    font-size: 21.6028px;
+    line-height: 38px;
+    letter-spacing: 0.025em;
+    color: #141414;
+}
+
+.resumo-2-servicos-s-container img {
+    width: 30vw;
+    margin-right: 8vw;
+}

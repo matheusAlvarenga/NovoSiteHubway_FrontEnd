@@ -10,12 +10,19 @@ import HeaderMobile from '../header_mobile';
 import Banner from '../banner_pages';
 
 import ResumoUm from './sub/resumo_um';
+import ResumoUmSmall from './sub/resumo_um_small';
+import ResumoUmMobile from './sub/resumo_um_mobile';
 
 import Portifolio from './sub/portifolio';
 
 import ResumoDois from './sub/resumo_dois';
+import ResumoDoisSmall from './sub/resumo_dois_small';
+import ResumoDoisMobile from './sub/resumo_dois_mobile';
 
 import Foto from './sub/foto';
+
+import Listagem from './sub/listagem';
+import ListagemMobile from './sub/listagem_mobile';
 
 import Footer from '../footer';
 import FooterMobile from '../footer_mobile';
@@ -82,11 +89,105 @@ export default function ServicoIndividual() {
 
             <Banner textos={dadosServiço.inpage.banner}></Banner>
 
-            <ResumoUm textos={dadosServiço.inpage.resumo}></ResumoUm>
+            {/* RESUMO 1 */}
 
-            <Portifolio textos={dadosServiço.inpage.portifolio}></Portifolio>
+            <Mobile>
+                <ResumoUmMobile
+                    textos={dadosServiço.inpage.resumo}
+                ></ResumoUmMobile>
+            </Mobile>
 
-            <ResumoDois textos={dadosServiço.inpage.resumo2}></ResumoDois>
+            <MobileBig>
+                <ResumoUmMobile
+                    textos={dadosServiço.inpage.resumo}
+                ></ResumoUmMobile>
+            </MobileBig>
+
+            <Tablet>
+                <ResumoUmMobile
+                    textos={dadosServiço.inpage.resumo}
+                ></ResumoUmMobile>
+            </Tablet>
+
+            <DesktopSmall>
+                <ResumoUmSmall
+                    textos={dadosServiço.inpage.resumo}
+                ></ResumoUmSmall>
+            </DesktopSmall>
+
+            <DesktopNormal>
+                <ResumoUm textos={dadosServiço.inpage.resumo}></ResumoUm>
+            </DesktopNormal>
+            <DesktopBig>
+                <ResumoUm textos={dadosServiço.inpage.resumo}></ResumoUm>
+            </DesktopBig>
+
+            {/* FIM RESUMO 1 */}
+
+            {/* PORTIFOLIO */}
+
+            <NoMobile>
+                <Portifolio
+                    textos={dadosServiço.inpage.portifolio}
+                ></Portifolio>
+            </NoMobile>
+
+            {/* FIM PORTIFOLIO */}
+
+            {/* LISTAGEM */}
+
+            <Mobile>
+                <ListagemMobile
+                    dados={dadosServiço.inpage.listagem}
+                ></ListagemMobile>
+            </Mobile>
+
+            <MobileBig>
+                <ListagemMobile
+                    dados={dadosServiço.inpage.listagem}
+                ></ListagemMobile>
+            </MobileBig>
+
+            <NoMobile>
+                <Listagem dados={dadosServiço.inpage.listagem}></Listagem>
+            </NoMobile>
+
+            {/* FIM LISTAGEM */}
+
+            {/* RESUMO 2 */}
+
+            <Mobile>
+                <ResumoDoisMobile
+                    textos={dadosServiço.inpage.resumo2}
+                ></ResumoDoisMobile>
+            </Mobile>
+
+            <MobileBig>
+                <ResumoDoisMobile
+                    textos={dadosServiço.inpage.resumo2}
+                ></ResumoDoisMobile>
+            </MobileBig>
+
+            <Tablet>
+                <ResumoDoisMobile
+                    textos={dadosServiço.inpage.resumo2}
+                ></ResumoDoisMobile>
+            </Tablet>
+
+            <DesktopSmall>
+                <ResumoDoisSmall
+                    textos={dadosServiço.inpage.resumo2}
+                ></ResumoDoisSmall>
+            </DesktopSmall>
+
+            <DesktopNormal>
+                <ResumoDois textos={dadosServiço.inpage.resumo2}></ResumoDois>
+            </DesktopNormal>
+            <DesktopBig>
+                <ResumoDois textos={dadosServiço.inpage.resumo2}></ResumoDois>
+            </DesktopBig>
+
+            {/* FIM RESUMO 2 */}
 
             <Foto dados={dadosServiço.inpage.foto}></Foto>
 

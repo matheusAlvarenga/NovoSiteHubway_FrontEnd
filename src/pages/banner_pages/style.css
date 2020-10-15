@@ -25,3 +25,23 @@
     text-transform: uppercase;
     color: #ffffff;
 }
+
+@media only screen and (max-width: 650px) {
+    .banner-pages-container h1 {
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 80px;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .banner-pages-container p {
+        margin-top: 70px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+}
