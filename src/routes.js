@@ -8,6 +8,8 @@ import Servicos from './pages/servicos';
 import Servico from './pages/servicos_individual';
 import Tecnologias from './pages/tecnologias';
 
+import Error from './pages/erro';
+
 export default function Routes() {
     return (
         <BrowserRouter>
@@ -18,6 +20,7 @@ export default function Routes() {
                 <Route path="/servicos" component={Servicos} />
                 <Route path="/servico/:id/" component={Servico} />
                 <Route path="/tecnologias" component={Tecnologias} />
+                <Route path="*" component={Error} />
             </Switch>
         </BrowserRouter>
     );

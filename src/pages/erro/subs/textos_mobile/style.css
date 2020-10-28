@@ -1,0 +1,27 @@
+.error_container .textos-m {
+    position: absolute;
+    width: 100%;
+    color: white;
+    bottom: 15vh;
+}
+
+.error_container .textos-m p {
+    font-weight: bold;
+    font-size: 15vw;
+    line-height: 10vw;
+    text-align: center;
+}
+
+.error_container .textos-m h1 {
+    font-weight: bold;
+    font-size: 45vw;
+    line-height: 45vw;
+    text-align: center;
+}
+
+.error_container .textos-m h2 {
+    font-weight: 500;
+    font-size: 7vw;
+    line-height: 10vw;
+    text-align: center;
+}
