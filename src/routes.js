@@ -8,6 +8,7 @@ import Servicos from './pages/servicos';
 import Servico from './pages/servicos_individual';
 import Tecnologias from './pages/tecnologias';
 import Admin_Login from './pages/admin_login';
+import Admin_Dashboard from './pages/admin_dashboard';
 
 import Error from './pages/erro';
 
@@ -51,7 +52,8 @@ export default function Routes() {
                 <Route path="/servicos" component={Servicos} />
                 <Route path="/servico/:id/" component={Servico} />
                 <Route path="/tecnologias" component={Tecnologias} />
-                <Route path="/admin" component={Admin_Login} />
+                <Route path="/admin" exact component={Admin_Login} />
+                <Route path="/admin/dashboard" component={Admin_Dashboard} />
                 <Route path="*" component={NotFound} />
             </Switch>
         </BrowserRouter>

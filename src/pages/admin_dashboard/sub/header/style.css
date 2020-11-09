@@ -1,0 +1,35 @@
+.header-admin-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-admin-container p {
+    font-size: 16px;
+    line-height: 11px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #141414;
+}
+
+.header-admin-container .right {
+    display: flex;
+}
+
+.header-admin-container .right svg {
+    cursor: pointer;
+}
+
+.header-admin-container .right .bell {
+    margin-right: 15px;
+    position: relative;
+}
+
+.header-admin-container .right .bell.active {
+    margin-right: 15px;
+    position: relative;
+    color: rgba(173, 0, 255, 1);
+}

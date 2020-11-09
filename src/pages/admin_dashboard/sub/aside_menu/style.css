@@ -1,0 +1,73 @@
+.aside-menu-admin-container {
+    height: 100vh;
+    width: 14vw;
+    background: url('../../../../assets/background_admin2.jpg');
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: fixed;
+}
+
+.aside-menu-admin-container img {
+    width: 60%;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.aside-menu-admin-container .divider {
+    width: 80%;
+    height: 2px;
+    background-color: #505050;
+}
+
+.aside-menu-admin-container .lista {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+}
+
+.aside-menu-admin-container .lista .item {
+    padding-left: 15px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 12px;
+
+    color: white;
+    cursor: pointer;
+}
+
+.aside-menu-admin-container .lista .item.active {
+    background: -moz-linear-gradient(
+        91deg,
+        rgba(173, 0, 255, 1) 0%,
+        rgba(44, 96, 197, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+        91deg,
+        rgba(173, 0, 255, 1) 0%,
+        rgba(44, 96, 197, 1) 100%
+    );
+    background: linear-gradient(
+        91deg,
+        rgba(173, 0, 255, 1) 0%,
+        rgba(44, 96, 197, 1) 100%
+    );
+}
+
+.aside-menu-admin-container .lista .item svg {
+    margin-right: 15px;
+    height: 13px;
+}
+
+.aside-menu-admin-container .lista .item p {
+    letter-spacing: 0.1em;
+    font-size: 14px;
+}
