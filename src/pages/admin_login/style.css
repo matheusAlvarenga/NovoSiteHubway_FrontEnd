@@ -82,3 +82,21 @@
         rgba(44, 96, 197, 1) 100%
     );
 }
+
+@media only screen and (max-width: 1000px) {
+    .admin-login-container .form {
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .admin-login-container .form {
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .admin-login-container .form {
+        width: 70vw;
+    }
+}
