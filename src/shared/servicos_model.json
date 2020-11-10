@@ -2,10 +2,12 @@
     "servicos": [
         {
             "nome": "Inbound Marketing",
-            "icone": "inboundmkt.png",
-            "acima": "LOREM IPSUM",
-            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
-            "photo": "1",
+            "icone": "https://drive.google.com/uc?export=view&id=1RhF-gnj0xz815uF8XUQcOaE3QBynKgK9",
+            "acima": "MARKETING DIGITAL",
+            "resumo": "O principal objetivo da estratégia de inbound marketing é a criação de um canal permanente de atração de audiência qualificada e sua conversão nas etapas do funil de marketing, sempre com o objetivo de gerar vendas.",
+            "photo": "https://drive.google.com/uc?export=view&id=1UTRlQlOG-vFIre1SBbkmGwJd_n3SehDJ",
+            "botao": "SAIBA MAIS",
+            "link": "/servico/0/inbound-marketing",
             "inpage": {
                 "banner": {
                     "breadcrumb": "INÍCIO - SERVIÇOS - Inbound MArketing",
@@ -18,11 +20,10 @@
                     "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet."
                 },
                 "portifolio": [
-                    "https://lh3.googleusercontent.com/kZn6WYawY2AqOetlQhj1XusnJPBPt7P7IMIgQPqTAM-X3STcWG09zJg90eDhY69IjS1NZ1W-uhdWvLiNUX2hNBRP12j2aOJm2PzrB1FTf2tf0cQ_fRVl5wRWNzvmAZT_m_M5So3vUhgEWuQXcJjNOtHXCxyXuum5A7SCOfRDVUZ2NZc54cMttl2LQvy82DopZWHB0vNL86YWuTFRSwfYmKNeWu9TSDTGY_bSl8mXVjsM589-Gu5OJ4snATaaUUPHyaEjEBixvT6fmDWwz6KvNqEDSzQ7iRwT4uNRajZl4IrKduELUqCnpGN55xqDG6a_CJfY4tDuSn1CZ02zS7rKNnYhS1b_aJ0SjSAoMfcl7O-ZrPe8vEH9odl2EjjsSPi3W-MyOL_L-BbMT2Pq1EELCb2fgj8BCLfhW9jyoFZ_Hnz1gV0dAJMIQhhZnzTcGK261mreiypVnsXpp7H8Fg0bqE2GeRKDRkk26tHOVS7TuRXatJtMJDb4udiHPEcid4_5bgPnl4hBnjv5Nyv8oH0TU5E2p_oa47fztem3oJhBzp7iOpLdtpXLzUpXN_kWyqlhRFkyjb9iYksNFuxDqXS187ch07KEmP5tMWuG-Rd8QIo_HdanCO4G5NwUAFU9iwCv8wQCIVRMwe4juso9NkLEtbXya_yC0wmimUOtG02N2lX9u-Mh6wha-VRp8zl4=w1130-h560-no?authuser=0",
-                    "foto2.png",
-                    "foto3.png",
-                    "foto4.png",
-                    "foto5.png"
+                    "https://drive.google.com/uc?export=view&id=17CBRMslcU2BFibs7bXXmfwp7OHqMNl6M",
+                    "https://drive.google.com/uc?export=view&id=1n4VWL0l4zSzw28E8dtIDOuuxam07u5o3",
+                    "https://drive.google.com/uc?export=view&id=1-Ajc6OtWmznK9CG1Rb3v0Vv7wpKYO2MI",
+                    "https://drive.google.com/uc?export=view&id=1wT2bQC6BuO6wexgd0YXRHmTnGqJnYWrb"
                 ],
                 "listagem": {
                     "acima": "TODOS SERVIÇOS",
@@ -219,27 +220,28 @@
         },
         {
             "nome": "Criação e Desenvolvimento",
-            "icone": "criacaoedev.png",
-            "acima": "LOREM IPSUM",
-            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
-            "photo": "1",
+            "icone": "https://drive.google.com/uc?export=view&id=1_hxQNDW-J6XxMKTegOO49IRwbH8afdDg",
+            "acima": "SITES, APPS E SISTEMAS",
+            "resumo": "Desenvolvemos sites e landing pages implementando todas as regras do Google e de mecanismos de busca orgânica e paga para aprimorar as campanhas on-line. Fazemos também o desenvolvimento de Sistemas e Aplicativos para Web, Android e IOS com as técnologias mais avançadas do mercado.",
+            "photo": "https://drive.google.com/uc?export=view&id=1wFj5qEPN95mnKNrFMZeKAllgu7vhV0lm",
+            "botao": "SAIBA MAIS",
+            "link": "/servico/4/criacao-e-desenvolvimento",
             "inpage": {
                 "banner": {
                     "breadcrumb": "INÍCIO - SERVIÇOS - Criação e Desenvolvimento",
                     "titulo": "Criação e Desenvolvimento"
                 },
                 "resumo": {
-                    "foto": "1.png",
-                    "titulo": "“LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT”",
-                    "subtitulo": "LOREM IPSUM",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet."
+                    "foto": "https://drive.google.com/uc?export=view&id=1Nt8f_XwOrd3ETsj0ahHopUFMVE-3rGtQ",
+                    "titulo": "DESENVOLVIMENTO DE SISTEMAS, SITES E APLICATIVOS",
+                    "subtitulo": "DOS MAIS SIMPLES AOS MAIS COMPLEXOS",
+                    "texto": "Com as expertises necessárias, a Agência Hubway desenvolve aplicações com as tecnologias mais poderosas do mercado. Fazendo desde serviços simples como uma Landing Page ou um Site, até grandes projetos como Aplicativos e Sistemas. Com todos os projetos obedecendo regras de gestão e com um nível altíssimo de qualidade."
                 },
                 "portifolio": [
-                    "foto1.png",
-                    "foto2.png",
-                    "foto3.png",
-                    "foto4.png",
-                    "foto5.png"
+                    "https://drive.google.com/uc?export=view&id=17CBRMslcU2BFibs7bXXmfwp7OHqMNl6M",
+                    "https://drive.google.com/uc?export=view&id=1n4VWL0l4zSzw28E8dtIDOuuxam07u5o3",
+                    "https://drive.google.com/uc?export=view&id=1-Ajc6OtWmznK9CG1Rb3v0Vv7wpKYO2MI",
+                    "https://drive.google.com/uc?export=view&id=1wT2bQC6BuO6wexgd0YXRHmTnGqJnYWrb"
                 ],
                 "listagem": {
                     "acima": "TODOS SERVIÇOS",
@@ -247,28 +249,29 @@
                     "lista": [
                         {
                             "titulo": "Tecnologias",
-                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                            "items": "HTML+CSS;React.js;React Native;PHP;Node.js;Wordpress;WooCommerce;Shopify;Moodle"
                         },
                         {
                             "titulo": "UI/UX Design",
-                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                            "items": "UX Research;Análise de Processos;Criação de Interfaces;Mobile First UI"
                         },
                         {
                             "titulo": "Desenvolvimento",
-                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                            "items": "App Android;App IOS;WebApps;PWA;SPA;Sistemas;Landing Pages;Sites;E-commerces; Rest API's"
                         },
                         {
-                            "titulo": "Metodologias",
-                            "items": "HTML+CSS;React.js;React Native;PHP;ASP Clássico;Node.js;Wordpress;WooCommerce;Shopify"
+                            "titulo": "Outros",
+                            "items": "Gerenciamento de Sites;Criação de Templates;Alterações gerais;Migrações;Correções de Erros"
                         }
                     ]
                 },
                 "resumo2": {
-                    "acima": "LOREM IPSUM",
-                    "titulo": "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR.",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet."
+                    "acima": "NOSSO MÉTODO",
+                    "titulo": "SOLUÇÕES PROFISSIONAIS COM FOCO EM UX",
+                    "texto": "Nós utilizamos as metodologias mais recentes para o planejamento dos projetos. Sempre focando na usabilidade e na necessidade dos usuários, utilizando ferramentas como pesquisas, entrevistas e MVPs para estar sempre criando o melhor e mais rentável produto para nossos clientes e os usuários. Utilizamos também metodologias ágeis, para realizar entregas funcionais e testáveis o mais rápido possível. Fazendo que você possa testar, conhecer e alterar as soluções, mesmo durante o desenvolvimento.",
+                    "foto": "https://drive.google.com/uc?export=view&id=12Wna01fatQHrjcFEgKWRD8rBeHZp5hnR"
                 },
-                "foto": "1.png"
+                "foto": "https://drive.google.com/uc?export=view&id=1FFftEwc0o97fxa08Q74ZnesJWVXmyilR"
             }
         }
     ]

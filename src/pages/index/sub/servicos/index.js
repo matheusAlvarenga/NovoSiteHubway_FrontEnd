@@ -10,31 +10,9 @@ import './style.css';
 
 function mapServicos(dados) {
     return dados.map((servico, key) => {
-        let img;
-
-        switch (key) {
-            case 0:
-                img = <img height={93} src={Imagem1}></img>;
-                break;
-            case 1:
-                img = <img height={93} src={Imagem2}></img>;
-                break;
-            case 2:
-                img = <img height={93} src={Imagem3}></img>;
-                break;
-            case 3:
-                img = <img height={93} src={Imagem4}></img>;
-                break;
-            case 4:
-                img = <img height={93} src={Imagem5}></img>;
-                break;
-        }
-
-        console.log(key);
-
         return (
             <div className="servico">
-                {img}
+                <img height={93} src={servico.icone}></img>
                 <p>{servico.nome}</p>
             </div>
         );
