@@ -14,12 +14,8 @@ export default function FooterMobile() {
                 </div>
                 <div className="resumo">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Donec volutpat pellentesque turpis eu pretium. Mauris
-                        cursus elit sit amet semper ullamcorper. Mauris sed enim
-                        rhoncus, maximus justo quis, consequat neque. Aliquam
-                        mattis vehicula orci a maximus. Aenean at risus quam.
-                        Vivamus sed consequat tellus.
+                        Desde 2015 trabalhando com as principais empresas do mercado com o 
+                        objetivo de gerar oportunidades e impacto real nas vendas.
                     </p>
                 </div>
             </div>
@@ -27,12 +23,12 @@ export default function FooterMobile() {
                 <div className="left">
                     <h3>Contato</h3>
                     <div className="endereco">
-                        <p>Av. Paulista 454, São Paulo</p>
+                        <p>Av. Paulista 171, 4º andar, São Paulo</p>
                         <p>SP - Brasil</p>
                     </div>
                     <div className="contato">
-                        <p>(11) 99999-9999</p>
-                        <p>fernando@hubway.com.br</p>
+                        <p>(11) 9 8955-5962</p>
+                        <p>contato@hubway.com.br</p>
                     </div>
                 </div>
                 <div className="right">

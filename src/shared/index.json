@@ -19,16 +19,16 @@
         "button": "Fale conosco"
     },
     "tecnologias": {
-        "acima": "Sempre à frente do seu tempo",
-        "titulo": "Conheça nossas Tecnologias Parceiras",
-        "paragrafo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam."
+        "acima": "TECNOLOGIA PARCEIRAS",
+        "titulo": "TECNOLOGIA PARA MARKETING DIGITAL",
+        "paragrafo": "Para suportar a estratégia de marketing digital e os resultados de nossos clientes contamos com os parceiros abaixo."
     },
     "feedbacks": {
-        "acima": "LOREM IPSUM DOLOR SIT AMET"
+        "acima": "O QUE FALAM DA HUBWAY"
     },
     "fale-conosco": {
-        "acima": "LOREM IPSUM",
-        "titulo": "NOS MANDE UMA MENSAGEM",
-        "paragrafo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam."
+        "acima": "FALE CONOSCO",
+        "titulo": "TEM UM ESPECIALISTA ESPERANDO SUA MENSAGEM",
+        "paragrafo": ""
     }
 }

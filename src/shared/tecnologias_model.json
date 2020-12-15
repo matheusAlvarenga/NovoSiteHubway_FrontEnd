@@ -3,26 +3,26 @@
         {
             "nome": "Moskit CRM",
             "logo": "img.png",
-            "acima": "LOREM IPSUM",
-            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
+            "acima": "CRM",
+            "resumo": "O Moskit é um CRM nacional completo com todas as ferramentas necessárias para efetivar vendas e gerir a equipe comercial",
             "photo": "1"
         },
         {
             "nome": "RD Station",
             "logo": "img.png",
-            "acima": "LOREM IPSUM",
-            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
+            "acima": "INBOUND MARKETING",
+            "resumo": "A parceria entre RD Station e Agência Hubway fez com que dezenas de negócios florescecem nos últimos 5 anos. O sistema de inbound marketing é o melhor para fazer a sua estratégia on-line mais inteligente com automações e relatórios incríveis.",
             "photo": "1"
         },
         {
-            "nome": "Dinamize",
+            "nome": "CHATBOT",
             "logo": "img.png",
-            "acima": "LOREM IPSUM",
-            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
+            "acima": "X2 INTELIGÊNCIA",
+            "resumo": "O NeemaBot foi desenvolvido com a metodologia de Processamento de Linguagem Natural conseguindo interpretar textos e áudios para atendimento ao cliente, suporte técnico, validação de documentos e outras inúmetos funções.",
             "photo": "1"
         },
         {
-            "nome": "Chatbot",
+            "nome": "MOSKIT CRM",
             "logo": "img.png",
             "acima": "LOREM IPSUM",
             "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",

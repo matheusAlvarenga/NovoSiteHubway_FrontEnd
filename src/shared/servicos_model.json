@@ -1,7 +1,7 @@
 {
     "servicos": [
         {
-            "nome": "Inbound Marketing",
+            "nome": "INBOUD MARKETING",
             "icone": "https://drive.google.com/uc?export=view&id=1RhF-gnj0xz815uF8XUQcOaE3QBynKgK9",
             "acima": "MARKETING DIGITAL",
             "resumo": "O principal objetivo da estratégia de inbound marketing é a criação de um canal permanente de atração de audiência qualificada e sua conversão nas etapas do funil de marketing, sempre com o objetivo de gerar vendas.",
@@ -59,9 +59,10 @@
         {
             "nome": "SEO",
             "icone": "seo.png",
-            "acima": "LOREM IPSUM",
-            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
+            "acima": "ALCANCE ORGÂNICO",
+            "resumo": "É possível vender pela internet sem gastar com anúncios. A estratégia de SEO é perfeita para quem quer vender ou alcançar outros objetivos na internet. Desenvolvemos uma série de técnicas para alavancar seu negócio.",
             "photo": "1",
+            "botao": "FALE COM ESPECIALISTA",
             "inpage": {
                 "banner": {
                     "breadcrumb": "INÍCIO - SERVIÇOS - SEO",
@@ -111,11 +112,12 @@
             }
         },
         {
-            "nome": "Google Ads",
+            "nome": "GOOGLE ADS",
             "icone": "googleads.png",
-            "acima": "LOREM IPSUM",
-            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
+            "acima": "Publicidade",
+            "resumo": "Os anúncios do Google são a forma mais rápida de aparecer no Google em uma posição estratégica. Nós, da Agência Hubway, somos Google Partner e podemos oferecer o desenvolvimento de uma campanha com alta otimização.",
             "photo": "1",
+            "botao": "SAIBA MAIS",
             "inpage": {
                 "banner": {
                     "breadcrumb": "INÍCIO - SERVIÇOS - Google Ads",
@@ -165,11 +167,12 @@
             }
         },
         {
-            "nome": "Business Intelligence",
+            "nome": "MÍDIA PROGRAMÁTICA",
             "icone": "bintelligence.png",
-            "acima": "LOREM IPSUM",
-            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
+            "acima": "DSP e DMP",
+            "resumo": "Utilizando as melhores DSPs e DMPs do mercado, utilizamos mais de 100 estratégias que variam de acordo com o seu objetivo de campanha. Esteja onde seu público está.",
             "photo": "1",
+            "botao": "SAIBA MAIS",
             "inpage": {
                 "banner": {
                     "breadcrumb": "INÍCIO - SERVIÇOS - Business Intelligence",
@@ -219,7 +222,7 @@
             }
         },
         {
-            "nome": "Criação e Desenvolvimento",
+            "nome": "CRIAÇÃO E DESENVOLVIMENTO",
             "icone": "https://drive.google.com/uc?export=view&id=1_hxQNDW-J6XxMKTegOO49IRwbH8afdDg",
             "acima": "SITES, APPS E SISTEMAS",
             "resumo": "Desenvolvemos sites e landing pages implementando todas as regras do Google e de mecanismos de busca orgânica e paga para aprimorar as campanhas on-line. Fazemos também o desenvolvimento de Sistemas e Aplicativos para Web, Android e IOS com as técnologias mais avançadas do mercado.",
