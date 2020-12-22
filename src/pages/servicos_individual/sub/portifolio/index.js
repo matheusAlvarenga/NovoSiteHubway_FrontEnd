@@ -33,11 +33,14 @@ export default function Portifolio({ textos }) {
     }
 
     const [selecionado, setselecionado] = useState(1);
-
-    return (
-        <div className="portifolio-container">
-            <div className="lista">{mapItems(textos)}</div>
-            <div className="fotos">{mapImg(textos)}</div>
-        </div>
-    );
+    if (textos[0] == 'none') {
+        return null;
+    } else {
+        return (
+            <div className="portifolio-container">
+                <div className="lista">{mapItems(textos)}</div>
+                <div className="fotos">{mapImg(textos)}</div>
+            </div>
+        );
+    }
 }

@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
+import ScrollToTop from './scroll';
+
 import Index from './pages/index';
 import SobreNos from './pages/sobre_nos';
 import FaleConosco from './pages/fale_conosco';
@@ -45,6 +47,7 @@ function RedirectWithStatus({ from, to, status }) {
 export default function Routes() {
     return (
         <BrowserRouter>
+            <ScrollToTop />
             <Switch>
                 <Route path="/" exact component={Index} />
                 <Route path="/sobre-nos" component={SobreNos} />

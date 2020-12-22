@@ -32,13 +32,17 @@ function mapListas(dados) {
 }
 
 export default function Listagem({ dados }) {
-    return (
-        <div className="listagem-servico-container">
-            <div className="header">
-                <p className="texto-gradiente">{dados.acima}</p>
-                <h2>{dados.titulo}</h2>
+    if (dados.acima == 'none') {
+        return <div></div>;
+    } else {
+        return (
+            <div className="listagem-servico-container">
+                <div className="header">
+                    <p className="texto-gradiente">{dados.acima}</p>
+                    <h2>{dados.titulo}</h2>
+                </div>
+                <div className="list">{mapListas(dados.lista)}</div>
             </div>
-            <div className="list">{mapListas(dados.lista)}</div>
-        </div>
-    );
+        );
+    }
 }
