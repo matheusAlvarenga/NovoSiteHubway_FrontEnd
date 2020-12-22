@@ -17,7 +17,7 @@
 
 .feedback-m-container .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100vw;
 }
@@ -75,12 +75,14 @@
     margin-left: 5vw;
     font-size: 40px;
     cursor: pointer;
+    z-index: 100;
 }
 
 .feedback-m-container .embaixo .seta-dir {
     margin-right: 5vw;
     font-size: 40px;
     cursor: pointer;
+    z-index: 100;
 }
 
 .feedback-m-container .embaixo .feedback {

@@ -84,12 +84,14 @@
     margin-left: 80px;
     font-size: 40px;
     cursor: pointer;
+    z-index: 100;
 }
 
 .feedback-s-container .embaixo .seta-dir {
     margin-right: 80px;
     font-size: 40px;
     cursor: pointer;
+    z-index: 100;
 }
 
 .feedback-s-container .embaixo .feedback {
