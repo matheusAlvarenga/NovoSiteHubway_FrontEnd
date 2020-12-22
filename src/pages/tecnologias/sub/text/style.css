@@ -50,3 +50,8 @@
 .texto-servico-container .btn {
     margin-top: 25px;
 }
+
+.texto-servico-container .btn a {
+    text-decoration: none;
+    color: white;
+}

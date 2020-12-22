@@ -1,23 +1,18 @@
 {
     "valores": [
         {
-            "titulo": "Lorem Ipsum 1",
-            "texto": "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum neque eu est ultricies, sit amet convallis odio bibendum. In consectetur porttitor semper. Phasellus vestibulum quis urna vel fermentum. Morbi placerat condimentum urna id convallis. Duis in arcu velit. Pellentesque dictum nisl enim, at consectetur lacus lacinia vel. Cras ipsum eros, aliquet et diam quis, fringilla molestie est. Nulla placerat nisi eget lorem auctor consequat. In hac habitasse platea dictumst. Nullam iaculis augue at metus feugiat fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras suscipit non urna sit amet sagittis. Ut dignissim sapien sapien, elementum tincidunt odio rhoncus vitae. Praesent eu augue sodales, aliquet arcu non, hendrerit justo.",
+            "titulo": "Metologia",
+            "texto": "A Agência Hubway é focada em vendas e utilizamos dados para gerar vendas para nossos clientes. Com os anos de mercado, desenvolvemos e testamos nossa metodologia e já testamos com sucesso em dezenas de negócios pelo Brasil. Além de desenvolver e estruturar campanhas de vendas, treinamos nossos clientes nas soluções, nos indicadores com suporte diário.",
             "imagem": "https://images.unsplash.com/photo-1601919263076-4a6a8514c461"
         },
         {
-            "titulo": "Lorem Ipsum 2",
-            "texto": "2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum neque eu est ultricies, sit amet convallis odio bibendum. In consectetur porttitor semper. Phasellus vestibulum quis urna vel fermentum. Morbi placerat condimentum urna id convallis. Duis in arcu velit. Pellentesque dictum nisl enim, at consectetur lacus lacinia vel. Cras ipsum eros, aliquet et diam quis, fringilla molestie est. Nulla placerat nisi eget lorem auctor consequat. In hac habitasse platea dictumst. Nullam iaculis augue at metus feugiat fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras suscipit non urna sit amet sagittis.Ut dignissim sapien sapien, elementum tincidunt odio rhoncus vitae. Praesent eu augue sodales, aliquet arcu non, hendrerit justo.",
+            "titulo": "Inovação",
+            "texto": "Nós trabalhamos com as tecnologias mais avançadas do mercado. Sejam elas metodologias, softwares, linguagens de programação ou pacotes de desenvolvimento. Sempre buscando maximizar a eficiëncia e os resultados em todos os nossos serviços.",
             "imagem": "https://images.unsplash.com/photo-1601919263076-4a6a8514c461"
         },
         {
-            "titulo": "Lorem Ipsum 3",
-            "texto": "3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum neque eu est ultricies, sit amet convallis odio bibendum. In consectetur porttitor semper. Phasellus vestibulum quis urna vel fermentum. Morbi placerat condimentum urna id convallis. Duis in arcu velit. Pellentesque dictum nisl enim, at consectetur lacus lacinia vel. Cras ipsum eros, aliquet et diam quis, fringilla molestie est. Nulla placerat nisi eget lorem auctor consequat. In hac habitasse platea dictumst. Nullam iaculis augue at metus feugiat fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras suscipit non urna sit amet sagittis.Ut dignissim sapien sapien, elementum tincidunt odio rhoncus vitae. Praesent eu augue sodales, aliquet arcu non, hendrerit justo.",
-            "imagem": "https://images.unsplash.com/photo-1601919263076-4a6a8514c461"
-        },
-        {
-            "titulo": "Lorem Ipsum 4",
-            "texto": "4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum neque eu est ultricies, sit amet convallis odio bibendum. In consectetur porttitor semper. Phasellus vestibulum quis urna vel fermentum. Morbi placerat condimentum urna id convallis. Duis in arcu velit. Pellentesque dictum nisl enim, at consectetur lacus lacinia vel. Cras ipsum eros, aliquet et diam quis, fringilla molestie est. Nulla placerat nisi eget lorem auctor consequat. In hac habitasse platea dictumst. Nullam iaculis augue at metus feugiat fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras suscipit non urna sit amet sagittis.Ut dignissim sapien sapien, elementum tincidunt odio rhoncus vitae. Praesent eu augue sodales, aliquet arcu non, hendrerit justo.",
+            "titulo": "Soluções",
+            "texto": "Nossa Agência trabalha com soluções, nós trazemos uma gama das mais diversas tecnologias e metodologias para solucionarmos seus problemas. Desde metologias para aumento das vendas, até grandes aplicativos mobile e sistemas feitos sob medida para cada cliente.",
             "imagem": "https://images.unsplash.com/photo-1601919263076-4a6a8514c461"
         }
     ]

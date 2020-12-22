@@ -2,31 +2,27 @@
     "tecnologias": [
         {
             "nome": "Moskit CRM",
-            "logo": "img.png",
-            "acima": "LOREM IPSUM",
-            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
-            "photo": "1"
+            "logo": "https://drive.google.com/uc?export=view&id=1avVQ__xS_yPqGA_5Z9PLdwfkBbV-DOXl",
+            "acima": "CRM NACIONAL",
+            "resumo": "O Moskit é um CRM para gestão de vendas. A ferramenta permite a criação de múltiplos funis de vendas, com acompanhamento diário das metas em número de negócios fechados e em faturamento. O sistema também gera relatórios para controle do comércial e produtividade da equipe.",
+            "photo": "https://drive.google.com/uc?export=view&id=19r0lWmTfFz3ZDbrrMN6JpBZSRFaUXyQR",
+            "link": "https://www.moskitcrm.com"
         },
         {
             "nome": "RD Station",
-            "logo": "img.png",
-            "acima": "LOREM IPSUM",
-            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
-            "photo": "1"
-        },
-        {
-            "nome": "Dinamize",
-            "logo": "img.png",
-            "acima": "LOREM IPSUM",
-            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
-            "photo": "1"
+            "logo": "https://drive.google.com/uc?export=view&id=1_pz8US69Fo4Qmf1RoifEIZ5Kq3DCWpob",
+            "acima": "INBOUND MARKETING",
+            "resumo": "A parceria entre RD Station e Agência Hubway fez com que dezenas de negócios florescecem nos últimos 5 anos. O sistema de inbound marketing é o melhor para fazer a sua estratégia on-line mais inteligente com automações e relatórios incríveis.",
+            "photo": "https://drive.google.com/uc?export=view&id=1gIQyZ7oiwgYzLsuG0asURcVN-iguTIDZ",
+            "link": "https://www.rdstation.com"
         },
         {
             "nome": "Chatbot",
-            "logo": "img.png",
-            "acima": "LOREM IPSUM",
-            "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam. Lorem ipsum dolor sit amet.",
-            "photo": "1"
+            "logo": "https://drive.google.com/uc?export=view&id=1yfDdyZDIw8z4GCNvUocqEwl1O-nZA7wZ",
+            "acima": "X2 INTELIGÊNCIA",
+            "resumo": "O NeemaBot foi desenvolvido com a metodologi a de Processamento de Linguagem Natural conseguindo interpretar textos e áudios para atendimento ao cliente, suporte técnico, validação de documentos e outras inúmetos funções.",
+            "photo": "https://drive.google.com/uc?export=view&id=1D9UND3SjFGaEH57kjDKteABLJ850YCg8",
+            "link": "https://x2inteligencia.digital/neema-bot/"
         }
     ]
 }

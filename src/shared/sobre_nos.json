@@ -5,29 +5,20 @@
     },
     "bemvindo": {
         "acima": "BEM-VINDO À AGÊNCIA DIGITAL HUBWAY",
-        "titulo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "ano": "2001"
+        "titulo": "Criamos uma metodologia própria para gerar vendas",
+        "ano": "2015"
     },
     "feedbacks": {
-        "acima": "LOREM IPSUM DOLOR SIT AMET"
-    },
-    "banner_newsletter": {
-        "frase": "Quer saber todas as novidades?",
-        "button": "Se increva"
-    },
-    "nossa_equipe": {
-        "acima": "AQUELES QUE TORNAM REALIDADE",
-        "titulo": "NOSSA EQUIPE",
-        "paragrafo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam."
+        "acima": "O que nossos clientes dizem sobre nós"
     },
     "nossos_valores": {
-        "acima": "AQUELES QUE TORNAM REALIDADE",
+        "acima": "ACELERADORA DE VENDAS",
         "titulo": "POR QUE NOS ESCOLHER?",
-        "paragrafo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam."
+        "paragrafo": "Trabalhamos duro para fazer nossos clientes crescerem e atingirem seus objetivos."
     },
     "faleconosco": {
-        "acima": "LOREM IPSUM",
-        "titulo": "NOS MANDE UMA MENSAGEM",
-        "paragrafo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam."
+        "acima": "FALE CONOSCO",
+        "titulo": "TEM UM ESPECIALISTA ESPERANDO SUA MENSAGEM",
+        "paragrafo": ""
     }
 }

@@ -56,7 +56,8 @@
     margin-bottom: 50px;
 }
 
-.servicos-resumo-t-container .lista .servico {
+.servicos-resumo-t-container .lista a {
+    text-decoration: none;
     margin: 7px;
 
     width: 45%;
@@ -74,7 +75,11 @@
         #ad00ff 0%,
         #2c60c5 100%
     );
+}
 
+.servicos-resumo-t-container .lista a .servico {
+    width: 100%;
+    height: 225px;
     display: flex;
     flex-direction: column;
     justify-content: center;

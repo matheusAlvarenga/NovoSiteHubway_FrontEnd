@@ -1,24 +1,9 @@
 {
     "contatos": [
         {
-            "linha_um": "Fernando Almeida 1",
-            "linha_dois": "+55 (11) 99999-9999",
-            "linha_tres": "fernando@hubway.com.br"
-        },
-        {
-            "linha_um": "Fernando Almeida 2",
-            "linha_dois": "+55 (11) 99999-9999",
-            "linha_tres": "fernando@hubway.com.br"
-        },
-        {
-            "linha_um": "Fernando Almeida 3",
-            "linha_dois": "+55 (11) 99999-9999",
-            "linha_tres": "fernando@hubway.com.br"
-        },
-        {
-            "linha_um": "São Caetano do Sul",
-            "linha_dois": "+55 (11) 99999-9999",
-            "linha_tres": "Rua Beretta, 199 - Vila"
+            "linha_um": "Atendimento Geral",
+            "linha_dois": "+55 (11) 98955-5962",
+            "linha_tres": "atendimento@hubway.com.br"
         }
     ]
 }

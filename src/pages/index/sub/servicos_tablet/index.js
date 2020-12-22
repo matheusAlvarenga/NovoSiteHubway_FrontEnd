@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Imagem1 from '../../../../assets/servicos_icones/1.png';
 import Imagem2 from '../../../../assets/servicos_icones/2.png';
@@ -32,10 +33,12 @@ function mapServicos(dados) {
         }
 
         return (
-            <div className="servico">
-                {img}
-                <p>{servico.nome}</p>
-            </div>
+            <Link to={servico.link}>
+                <div className="servico">
+                    {img}
+                    <p>{servico.nome}</p>
+                </div>
+            </Link>
         );
     });
 }

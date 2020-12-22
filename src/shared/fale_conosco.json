@@ -1,15 +1,11 @@
 {
     "banner": {
-        "breadcrumb": "Início - Sobre Nós",
-        "titulo": "Sobre Nós"
+        "breadcrumb": "Início - Fale Conosco",
+        "titulo": "Fale Conosco"
     },
     "formulario": {
-        "acima": "LOREM IPSUM",
-        "titulo": "NOS MANDE UMA MENSAGEM",
-        "paragrafo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare nec ligula nec blandit. Sed vitae luctus diam."
-    },
-    "banner_newsletter": {
-        "frase": "Quer saber todas as novidades?",
-        "button": "Se increva"
+        "acima": "FALE CONOSCO",
+        "titulo": "TEM UM ESPECIALISTA ESPERANDO SUA MENSAGEM",
+        "paragrafo": ""
     }
 }
