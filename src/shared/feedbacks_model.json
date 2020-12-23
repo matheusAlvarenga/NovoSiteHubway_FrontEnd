@@ -1,28 +1,24 @@
 {
     "feedbacks": [
         {
-            "autor": "Matheus Alvarenga 1",
-            "cargo": "Cargo",
-            "mensagem": "“Rapidiously synthesize parallel information rather than web-enabled infrastructures. Rapidiously conceptualize intuitive paradigms before optimal synergy. Globally benchmark wireless interfaces whereas tactical meta-services.”",
-            "data": "22/09/2020"
-        },
-        {
-            "autor": "Matheus Alvarenga 2",
-            "cargo": "Cargo",
-            "mensagem": "“Rapidiously synthesize parallel information rather than web-enabled infrastructures. Rapidiously conceptualize intuitive paradigms before optimal synergy. Globally benchmark wireless interfaces whereas tactical meta-services.”",
-            "data": "22/09/2020"
-        },
-        {
-            "autor": "Matheus Alvarenga 3",
-            "cargo": "Cargo",
-            "mensagem": "“Rapidiously synthesize parallel information rather than web-enabled infrastructures. Rapidiously conceptualize intuitive paradigms before optimal synergy. Globally benchmark wireless interfaces whereas tactical meta-services.”",
-            "data": "22/09/2020"
+            "autor": "Rafaella Giardino",
+            "cargo": "Analista de Marketing",
+            "mensagem": "“Um dos itens de nosso planejamento era ampliar e melhorar as nossas ações de marketing da empresa. Ao nos reunirmos com a equipe Hubway, tivemos um perfeito entendimento de nosso cenário e necessidades, bem como a montagem de uma estratégia adequada aos nossos serviços e segmento.”"
         },
         {
             "autor": "Matheus Alvarenga 4",
             "cargo": "Cargo",
-            "mensagem": "“Rapidiously synthesize parallel information rather than web-enabled infrastructures. Rapidiously conceptualize intuitive paradigms before optimal synergy. Globally benchmark wireless interfaces whereas tactical meta-services.”",
-            "data": "22/09/2020"
+            "mensagem": "“Rapidiously synthesize parallel information rather than web-enabled infrastructures. Rapidiously conceptualize intuitive paradigms before optimal synergy. Globally benchmark wireless interfaces whereas tactical meta-services.”"
+        },
+        {
+            "autor": "Iannis Farjo",
+            "cargo": "Analista de Marketing",
+            "mensagem": "“A Hubway é um fornecedor confiável e com excelência em suas entregas de marketing digital. Mais do que fazer suas entregas de forma organizada, dentro dos prazos e com alta qualidade, a empresa é uma verdadeira parceira para se trabalhar.”"
+        },
+        {
+            "autor": "Fernando Rodrigues",
+            "cargo": "Executivo de Vendas",
+            "mensagem": "Um dos itens de nosso planejamento era ampliar e melhorar as nossas ações de marketing da empresa. Ao nos reunirmos com a equipe Hubway, tivemos um perfeito entendimento de nosso cenário e necessidades. Melhoramos muito todo o nosso posicionamento de mercado e reconhecemos a Hubway como uma parceira de sucesso e de longo prazo."
         }
     ]
 }

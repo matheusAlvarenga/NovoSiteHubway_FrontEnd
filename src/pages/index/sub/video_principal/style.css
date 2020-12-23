@@ -1,7 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
 .video-principal-container {
+    position: relative;
     height: 100vh;
     background: url('../../../../assets/background_principal.jpg');
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.video-principal-container .textos {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 180px;
+}
+
+.video-principal-container .textos h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70.12px;
+    line-height: 95px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.video-principal-container .textos h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 82px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+
+    margin-bottom: 25px;
+}
+
+.video-principal-container .textos a {
+    font-size: 25px;
+    line-height: 37px;
+    color: #ffffff;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 11px 27px;
+    border: 4px solid #ffffff;
+}
+
+.video-principal-container .textos a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
 }
